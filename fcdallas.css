@@ -544,6 +544,32 @@ a[href$="zimmerman"] { background-position: 0 -2070px; }
 }
 
 /**
+ * Flair Display
+ */
+.titlebox .tagline:before {
+    content: " Represent your favorite player! Click edit below:";
+    display: block;
+    padding-bottom: 5px;
+    font-size: 10px;
+}
+
+.flair:before {
+    content: "";
+    margin: 0;
+}
+
+.flair, .linkflairlabel {
+    border: 1px solid #AD0E02;
+    background-color: #EA2212;
+    color: #FAFAFA;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    font-weight: bold;
+    margin: 1px 3px;
+    padding: 1px 3px;
+}
+
+/**
  * Snow!
  */
 body:before {
