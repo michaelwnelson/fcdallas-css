@@ -570,6 +570,22 @@ a[href$="zimmerman"] { background-position: 0 -2070px; }
 }
 
 /**
+ * Flair Selector
+ */
+.flairselector {
+    width: 275px !important;
+}
+
+.flairselector form .flairselection:before {
+    color: #333333;
+    margin: 5px;
+}
+
+.flairselector form .flairselection .flairremove {
+    margin: 0 5px;
+}
+
+/**
  * Snow!
  */
 body:before {
