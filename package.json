@@ -1,0 +1,25 @@
+{
+  "name": "fcdallas-css",
+  "version": "1.0.2",
+  "description": "Custom /r/Naut theme for /r/fcdallas",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-minify-css": "^1.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/michaelwnelson/fcdallas-css.git"
+  },
+  "author": "Michael Nelson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelwnelson/fcdallas-css/issues"
+  },
+  "homepage": "https://github.com/michaelwnelson/fcdallas-css"
+}
