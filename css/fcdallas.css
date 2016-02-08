@@ -535,6 +535,49 @@ a[href$="zendejas"] { background-position: 0 -1980px; }
 a[href$="zimmerman"] { background-position: 0 -2070px; }
 
 /**
+ * Match Thread Icons
+ */
+a[href="/yellow"],
+a[href="/second-yellow"],
+a[href="/red"],
+a[href="/injury"],
+a[href="/captain"],
+a[href="/sub"],
+a[href="/sub-on"],
+a[href="/sub-off"],
+a[href="/goal"],
+a[href="/own-goal"],
+a[href="/assist"],
+a[href="/whistle"],
+a[href="/offside"],
+a[href="/penalty-made"],
+a[href="/penalty-missed"] {
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    background-image: url(%%match-thread-icons%%);
+    text-indent: -9999px;
+    display: inline-block;
+    vertical-align: top;
+    border-width: 0;
+}
+a[href="/yellow"] { background-position: 0 0 }
+a[href="/second-yellow"] { background-position: -16px 0 }
+a[href="/red"] { background-position: -32px 0 }
+a[href="/injury"] { background-position: -48px 0 }
+a[href="/captain"] { background-position: 0 -16px }
+a[href="/sub"] { background-position: -16px -16px }
+a[href="/sub-on"] { background-position: -32px -16px }
+a[href="/sub-off"] { background-position: -48px -16px }
+a[href="/goal"] { background-position: 0 -32px }
+a[href="/own-goal"] { background-position: -16px -32px }
+a[href="/assist"] { background-position: -32px -32px }
+a[href="/whistle"] { background-position: -48px -32px }
+a[href="/offside"] { background-position: 0 -48px }
+a[href="/penalty-made"] { background-position: -16px -48px }
+a[href="/penalty-missed"] { background-position: -32px -48px }
+
+/**
  * Make mods stand out
  */
 .author[href$="/bravoavocado"],
