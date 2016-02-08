@@ -202,34 +202,25 @@ div.titlebox span.number:after {
 }
 
 /**
- * Sidebar Matches and Results
+ * General Table Definitions
  */
 
-.side .md table {
+.md table {
     margin: 3px 0 30px 0;
-    width: 100%;
 }
 
-.side .md table td {
-    height: 21px;
-}
-
-.side .md table {
+.md table {
     box-shadow: 2px 2px 2px #ccc;
     border-left: 1px solid #E8E8E8;
     background-color: white;
 }
 
-.side .md table th,
-.side .md table td {
-    font-size: 1em;
+.md table th,
+.md table td {
+    font-size: 0.8em;
 }
 
-.side .md table th {
-    font-size: 1.2em;
-}
-
-.side .md table th {
+.md table th {
     padding: 6px 4px;
     border-top: none;
     border-right: 1px solid #AD0E02;
@@ -241,8 +232,43 @@ div.titlebox span.number:after {
     font-weight: 700;
 }
 
-.side table thead tr:nth-child(1) {
+table thead tr:nth-child(1) {
     border: 1px solid #EA2212!important;
+}
+
+.md table td {
+    border: none;
+}
+
+.md table tr:nth-child(even) {
+    background-color: #feeff1;
+}
+
+.md table td a,
+.md table td a:visited {
+    color: #00295b;
+}
+
+.md table td a:hover {
+    text-decoration: underline;
+}
+
+/**
+ * Sidebar specific table changes
+ */
+
+.side .md table {
+    width: 100%;
+}
+
+.side .md table td,
+.side .md table th {
+    font-size: 1em;
+}
+
+.side .md table th {
+    font-size: 1.2em;
+    padding: .5em;
 }
 
 .side .md table td {
@@ -250,24 +276,14 @@ div.titlebox span.number:after {
     border-left: none;
     border-bottom: none;
     border-right: 1px solid #ccc;
-    padding: .6em;
-}
-
-.side .md table tr:nth-child(even) {
-    background-color: #feeff1;
+    padding: 0.6em;
 }
 
 .side .md table td a,
 .side .md table td a:visited {
     color: #00295b;
 }
-.side .md table td a:hover {
-    text-decoration: underline;
-}
 
-/**
- * Playoff cut-off line on 3rd table, 6th row
- */
 .side .md table:nth-of-type(3) tr:nth-of-type(6) {
     border-bottom: 3px solid red;
 }
