@@ -643,31 +643,3 @@ a[href="/penalty-missed"] { background-position: -32px -48px }
 .flairselector form .flairselection .flairremove {
     margin: 0 5px;
 }
-
-/**
- * Snow!
- */
-body:before {
-    background-image: url(%%snowflake%%), url(%%snowflake2%%), url(%%snowflake3%%);
-    background-repeat: repeat,repeat,repeat;
-    background-position: 0 0,0 0,0 0,50% 0;
-    animation: snow 30s linear infinite;
-    -webkit-animation: snow 30s linear infinite;
-}
-
-@keyframes snow {
-    from {
-        background-position: 0 0, 0 0, 0 0
-    }
-    to {
-        background-position: 500px 1000px, 400px 400px, 300px 300px
-    }
-}
-@-webkit-keyframes snow {
-    from {
-        background-position: 0 0, 0 0, 0 0
-    }
-    to {
-        background-position: 500px 1000px, 400px 400px, 300px 300px
-    }
-}
