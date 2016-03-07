@@ -266,6 +266,7 @@ table thead tr:nth-child(1) {
 
 .side .md table {
     width: 100%;
+    margin-bottom: 30px;
 }
 
 .side .md table td,
