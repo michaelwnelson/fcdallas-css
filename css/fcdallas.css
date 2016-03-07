@@ -4,10 +4,17 @@
  =============================================================================*/
 
 /**
+ * Jersey Background
+ */
+body {
+    background: #eeeeee url(%%jersey-bg%%) no-repeat center top;
+}
+
+/**
  * Solid Header Background
  */
 body:before {
-    background-color: #a60000;
+    background: transparent;
     background-image: none;
 }
 
