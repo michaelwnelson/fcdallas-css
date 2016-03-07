@@ -172,7 +172,7 @@ div.titlebox span.number:after {
     margin: 0;
     padding: 0;
     position: absolute;
-    background: url(%%acosta%%) no-repeat left bottom;
+    background: url(%%sidebar-img%%) no-repeat left bottom;
 }
 
 .side .md>ul>li {
