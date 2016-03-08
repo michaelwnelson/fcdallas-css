@@ -533,30 +533,32 @@ table thead tr:nth-child(1) {
     white-space: nowrap;
 }
 
-a[href$="acosta"] { background-position: 0 0; }
-a[href$="akindele"] { background-position: 0 -90px; }
-a[href$="barrios"] { background-position: 0 -180px; }
-a[href$="bekker"] { background-position: 0 -270px; }
-a[href$="castillo"] { background-position: 0 -360px; }
-a[href$="craft"] { background-position: 0 -450px; }
-a[href$="diaz"] { background-position: 0 -540px; }
-a[href$="earle"] { background-position: 0 -630px; }
-a[href$="garcia"] { background-position: 0 -720px; }
-a[href$="gonzalez"] { background-position: 0 -810px; }
-a[href$="harris"] { background-position: 0 -900px; }
-a[href$="hedges"] { background-position: 0 -990px; }
-a[href$="hernandez"] { background-position: 0 -1080px; }
-a[href$="hollingshead"] { background-position: 0 -1170px; }
-a[href$="keel"] { background-position: 0 -1260px; }
-a[href$="kennedy"] { background-position: 0 -1350px; }
-a[href$="loyd"] { background-position: 0 -1440px; }
-a[href$="michel"] { background-position: 0 -1530px; }
-a[href$="perez"] { background-position: 0 -1620px; }
-a[href$="seitz"] { background-position: 0 -1710px; }
-a[href$="texeira"] { background-position: 0 -1800px; }
-a[href$="ulloa"] { background-position: 0 -1890px; }
-a[href$="zendejas"] { background-position: 0 -1980px; }
-a[href$="zimmerman"] { background-position: 0 -2070px; }
+a[href$="acosta"] { background-position: -5px -5px; }
+a[href$="akindele"] { background-position: -71px -5px; }
+a[href$="barrios"] { background-position: -137px -5px; }
+a[href$="bonner"] { background-position: -203px -5px; }
+a[href$="castillo"] { background-position: -269px -5px; }
+a[href$="craft"] { background-position: -335px -5px; }
+a[href$="diaz"] { background-position: -71px -95px; }
+a[href$="figueroa"] { background-position: -137px -95px; }
+a[href$="gonzalez"] { background-position: -203px -95px; }
+a[href$="gruezo"] { background-position: -269px -95px; }
+a[href$="guillen"] { background-position: -335px -95px; }
+a[href$="harris"] { background-position: -5px -185px; }
+a[href$="hedges"] {background-position: -71px -185px; }
+a[href$="herman"] {background-position: -137px -185px; }
+a[href$="hernandez"] {background-position: -203px -185px; }
+a[href$="hollingshead"] {background-position: -269px -185px; }
+a[href$="lizarazo"] {background-position: -335px -185px; }
+a[href$="loyd"] {background-position: -5px -275px; }
+a[href$="ortiz"] {background-position: -71px -275px; }
+a[href$="pitter"] { background-position: -137px -275px; }
+a[href$="rosales"] { background-position: -203px -275px; }
+a[href$="seitz"] { background-position: -269px -275px; }
+a[href$="ulloa"] { background-position: -335px -275px; }
+a[href$="urruti"] { background-position: -401px -5px; }
+a[href$="zendejas"] { background-position: -401px -95px; }
+a[href$="zimmerman"] { background-position: -401px -185px; }
 
 /**
  * Match Thread Icons
