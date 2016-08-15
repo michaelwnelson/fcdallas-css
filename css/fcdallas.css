@@ -309,6 +309,9 @@ table thead tr:nth-child(1) {
  * Included the few subreddits that can be case sensitive e.g. Rapids
  */
 .md td a[href*="mlssoccer.com"],
+.md td a[href*="concacaf.com"],
+.md td a[href*="/CCL"],
+.md td a[href*="/USOC"],
 .md td a[href*="/chicagofire"],
 .md td a[href*="chicago-fire.com"],
 .md td a[href*="/rapids"],
@@ -363,6 +366,8 @@ table thead tr:nth-child(1) {
 .md td a[href*="NYCFC"],
 .md td a[href*="nycfc.com"],
 .content a[href="/MLS"],
+.content a[href="/CCL"],
+.content a[href="/USOC"],
 .content a[href="/CHI"],
 .content a[href="/COL"],
 .content a[href="/CLB"],
@@ -403,6 +408,15 @@ table thead tr:nth-child(1) {
 .md td a[href*="/mls"],
 .content a[href="/MLS"] {
     background-position: 0 0
+}
+.md td a[href*="concacaf.com"],
+.md td a[href*="/CCL"],
+.content a[href="/CCL"] {
+    background-position: 0 -655px;
+}
+.md td a[href*="/USOC"],
+.content a[href="/USOC"] {
+    background-position: 0 -573px;
 }
 .md td a[href*="chicago-fire.com"],
 .md td a[href*="/chicagofire"],
