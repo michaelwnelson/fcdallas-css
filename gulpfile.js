@@ -1,6 +1,6 @@
 var gulp = require('gulp'),
 	concat = require('gulp-concat'),
-	minify = require('gulp-minify-css')
+	minify = require('gulp-clean-css')
 
 // helps keep the file order
 files = [
