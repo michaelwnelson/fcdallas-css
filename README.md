@@ -19,4 +19,4 @@ $ npm install
 ```
 
 ## Usage
-After making any changes, simple execute the command `gulp`. The default method calls `minify` which concatenates and minifies the Naut library and the customizations for the FC Dallas subreddit.
+After making any changes, simply execute the command `gulp`. The default method calls `minify` which concatenates and minifies the Naut library and the customizations for the FC Dallas subreddit.
