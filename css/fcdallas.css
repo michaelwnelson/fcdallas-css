@@ -310,6 +310,7 @@ table thead tr:nth-child(1) {
  */
 .md td a[href*="mlssoccer.com"],
 .md td a[href*="concacaf.com"],
+.md td a[href*="/MLS"],
 .md td a[href*="/CCL"],
 .md td a[href*="/USOC"],
 .md td a[href*="/chicagofire"],
