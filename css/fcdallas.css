@@ -7,7 +7,7 @@
  * Jersey Background
  */
 body {
-    background: #eeeeee url(%%jersey-bg%%) no-repeat center top;
+    background: #292f60 url(%%stars-bg%%) no-repeat fixed center top;
 }
 
 /**
