@@ -274,11 +274,6 @@ table thead tr:nth-child(1) {
     font-size: 1em;
 }
 
-.side .md table th {
-    font-size: 1.2em;
-    padding: .5em;
-}
-
 .side .md table td {
     border-top: none;
     border-left: none;
