@@ -547,33 +547,33 @@ table thead tr:nth-child(1) {
     text-indent: -9999px;
     white-space: nowrap;
 }
-
-a[href$="acosta"] { background-position: -5px -5px; }
-a[href$="akindele"] { background-position: -71px -5px; }
-a[href$="barrios"] { background-position: -137px -5px; }
-a[href$="bonner"] { background-position: -203px -5px; }
-a[href$="castillo"] { background-position: -269px -5px; }
-a[href$="craft"] { background-position: -335px -5px; }
-a[href$="diaz"] { background-position: -71px -95px; }
-a[href$="figueroa"] { background-position: -137px -95px; }
-a[href$="gonzalez"] { background-position: -203px -95px; }
-a[href$="gruezo"] { background-position: -269px -95px; }
-a[href$="guillen"] { background-position: -335px -95px; }
-a[href$="harris"] { background-position: -5px -185px; }
-a[href$="hedges"] {background-position: -71px -185px; }
-a[href$="herman"] {background-position: -137px -185px; }
-a[href$="hernandez"] {background-position: -203px -185px; }
-a[href$="hollingshead"] {background-position: -269px -185px; }
-a[href$="lizarazo"] {background-position: -335px -185px; }
-a[href$="loyd"] {background-position: -5px -275px; }
-a[href$="ortiz"] {background-position: -71px -275px; }
-a[href$="pitter"] { background-position: -137px -275px; }
-a[href$="rosales"] { background-position: -203px -275px; }
-a[href$="seitz"] { background-position: -269px -275px; }
-a[href$="ulloa"] { background-position: -335px -275px; }
-a[href$="urruti"] { background-position: -401px -5px; }
-a[href$="zendejas"] { background-position: -401px -95px; }
-a[href$="zimmerman"] { background-position: -401px -185px; }
+a[href$="acosta"] { background-position: -71px -5px; }
+a[href$="akindele"] { background-position: -137px -5px; }
+a[href$="barrios"] { background-position: -203px -5px; }
+a[href$="cannon"] { background-position: -269px -5px; }
+a[href$="cermeno"] { background-position: -335px -5px; }
+a[href$="chala"] { background-position: -5px -95px; }
+a[href$="colman"] { background-position: -71px -95px; }
+a[href$="craft"] { background-position: -137px -95px; }
+a[href$="diaz"] { background-position: -203px -95px; }
+a[href$="ferreira"] { background-position: -269px -95px; }
+a[href$="figueroa"] { background-position: -335px -95px; }
+a[href$="gonzalez"] { background-position: -5px -185px; }
+a[href$="grana"] { background-position: -71px -185px; }
+a[href$="gruezo"] { background-position: -137px -185px; }
+a[href$="guillen"] { background-position: -203px -185px; }
+a[href$="harris"] { background-position: -269px -185px; }
+a[href$="hedges"] { background-position: -335px -185px; }
+a[href$="hollingshead"] { background-position: -5px -275px; }
+a[href$="hume"] { background-position: -71px -275px; }
+a[href$="lamah"] { background-position: -137px -275px; }
+a[href$="morales"] { background-position: -203px -275px; }
+a[href$="pomykal"] { background-position: -269px -275px; }
+a[href$="reynolds"] { background-position: -335px -275px; }
+a[href$="seitz"] { background-position: -401px -5px; }
+a[href$="ulloa"] { background-position: -401px -95px; }
+a[href$="urruti"] { background-position: -401px -185px; }
+a[href$="zimmerman"] { background-position: -401px -275px; }
 
 /**
  * Match Thread Icons
