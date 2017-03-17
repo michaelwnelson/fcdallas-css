@@ -308,6 +308,9 @@ table thead tr:nth-child(1) {
 .md td a[href*="/MLS"],
 .md td a[href*="/CCL"],
 .md td a[href*="/USOC"],
+.md td a[href*="/atlantaunited"],
+.md td a[href*="/AtlantaUnited"],
+.md td a[href*="atlutd.com"],
 .md td a[href*="/chicagofire"],
 .md td a[href*="chicago-fire.com"],
 .md td a[href*="/rapids"],
@@ -325,6 +328,9 @@ table thead tr:nth-child(1) {
 .md td a[href*="/lagalaxy"],
 .md td a[href*="/LAGalaxy"],
 .md td a[href*="lagalaxy.com"],
+.md td a[href*="/minnesotaunited"],
+.md td a[href*="/MinnesotaUnited"],
+.md td a[href*="mnufc.com"],
 .md td a[href*="/montrealimpact"],
 .md td a[href*="impactmontreal.com"],
 .md td a[href*="/newenglandrevolution"],
@@ -364,6 +370,7 @@ table thead tr:nth-child(1) {
 .content a[href="/MLS"],
 .content a[href="/CCL"],
 .content a[href="/USOC"],
+.content a[href="/ATL"],
 .content a[href="/CHI"],
 .content a[href="/COL"],
 .content a[href="/CLB"],
@@ -372,6 +379,7 @@ table thead tr:nth-child(1) {
 .content a[href="/HOU"],
 .content a[href="/LAG"],
 .content a[href="/MON"],
+.content a[href="/MNU"],
 .content a[href="/OC"],
 .content a[href="/NER"],
 .content a[href="/NYCFC"],
@@ -389,12 +397,9 @@ table thead tr:nth-child(1) {
     background-image: url(%%clubs%%);
     background-repeat: no-repeat;
     display: inline-block;
-    height: 20px;
-    padding-left: 25px;
+    min-height: 20px;
+    padding: 5px 0 5px 25px;
     margin-left: 2px;
-    vertical-align: middle;
-    white-space: nowrap;
-    line-height: 2;
 }
 
 /**
@@ -408,111 +413,122 @@ table thead tr:nth-child(1) {
 .md td a[href*="concacaf.com"],
 .md td a[href*="/CCL"],
 .content a[href="/CCL"] {
-    background-position: 0 -655px;
+    background-position: 0 -653px;
 }
 .md td a[href*="/USOC"],
 .content a[href="/USOC"] {
     background-position: 0 -573px;
 }
+.md td a[href*="atlutd.com"],
+.md td a[href*='/atlantaunited']
+.md td a[href*='/AtlantaUnited'] {
+    background-position: 1px -787px;
+}
 .md td a[href*="chicago-fire.com"],
 .md td a[href*="/chicagofire"],
 .content a[href="/CHI"] {
-    background-position: 0 -26px;
+    background-position: 0 -24px;
 }
 .md td a[href*="coloradorapids.com"],
 .md td a[href*="/rapids"],
 .md td a[href*="/Rapids"],
 .content a[href="/COL"] {
-    background-position: 0 -78px;
+    background-position: 0 -76px;
 }
 .md td a[href*="thecrew.com"],
 .md td a[href*="/themassive"],
 .md td a[href*="/TheMassive"],
 .content a[href="/CLB"] {
-    background-position: 0 -104px;
+    background-position: 0 -102px;
     }
 .md td a[href*="dcunited.com"],
 .md td a[href*="/dcunited"],
 .md td a[href*="/DCUnited"],
 .content a[href="/DC"] {
-    background-position: 0 -130px;
+    background-position: 0 -128px;
 }
 .md td a[href*="/fcdallas"],
 .md td a[href*="/FCDallas"],
 .content a[href="/FCD"] {
-    background-position: 0 -156px;
+    background-position: 0 -154px;
 }
 .md td a[href*="houstondynamo.com"],
 .md td a[href*="/dynamo"],
 .content a[href="/HOU"] {
-    background-position: 0 -182px;
+    background-position: 0 -180px;
 }
 .md td a[href*="lagalaxy.com"],
 .md td a[href*="/lagalaxy"],
 .md td a[href*="/LAGalaxy"],
 .content a[href="/LAG"] {
-    background-position: 0 -208px;
+    background-position: 0 -206px;
+}
+.md td a[href*="mnufc.com"],
+.md td a[href*="/minnesotaunited"],
+.md td a [href*="/MinnesotaUnited"],
+.content a[href="/MNU"] {
+    background-position: 0 -755px;
 }
 .md td a[href*="impactmontreal.com"],
 .md td a[href*="/montrealimpact"],
 .content a[href="/MON"] {
-    background-position: 0 -234px;
+    background-position: 0 -232px;
 }
 .md td a[href*="revolutionsoccer.net"],
 .md td a[href*="/newenglandrevolution"],
 .md td a[href*="/NewEnglandRevolution"],
 .content a[href="/NER"] {
-    background-position: 0 -260px;
+    background-position: 0 -258px;
 }
 .md td a[href*="newyorkredbulls.com"],
 .md td a[href*="/rbny"],
 .content a[href="/NYRB"] {
-    background-position: 0 -286px;
+    background-position: 0 -284px;
 }
 .md td a[href*="/nycfc"],
 .md td a[href*="/NYCFC"],
 .md td a[href*="nycfc.com"],
 .content a[href="/NYCFC"] {
-    background-position: 0 -546px;
+    background-position: 0 -544px;
 }
 .md td a[href*="/OCLions"],
 .md td a[href*="/oclions"],
 .md td a[href*="orlandocitysc.com"],
 .content a[href="/OC"] {
-    background-position: 0 -519px;
+    background-position: 0 -517px;
 }
 .md td a[href*="philadelphiaunion.com"],
 .md td a[href*="/phillyunion"],
 .md td a[href*="/PhillyUnion"],
 .content a[href="/PHI"] {
-    background-position: 0 -312px;
+    background-position: 0 -310px;
 }
 .md td a[href*="portlandtimbers.com"],
 .md td a[href*="/timbers"],
 .content a[href="/POR"] {
-    background-position: 0 -338px;
+    background-position: 0 -336px;
 }
 .md td a[href*="realsaltlake.com"],
 .md td a[href*="/realsaltlake"],
 .content a[href="/RSL"] {
-    background-position: 0 -364px;
+    background-position: 0 -362px;
 }
 .md td a[href*="sjearthquakes.com"],
 .md td a[href*="/sjearthquakes"],
 .md td a[href*="/SJEarthquakes"],
 .content a[href="/SJE"] {
-    background-position: 0 -390px;
+    background-position: 0 -388px;
 }
 .md td a[href*="soundersfc.com"],
 .md td a[href*="/soundersfc"],
 .md td a[href*="/SoundersFC"],
 .content a[href="/SEA"] {
-    background-position: 0 -416px;
+    background-position: 0 -414px;
 }
 .md td a[href*="sportingkc.com"],
 .md td a[href*="/sportingkc"],
 .content a[href="/SKC"] {
-    background-position: 0 -442px;
+    background-position: 0 -440px;
 }
 .md td a[href*="torontofc.ca"],
 .md td a[href*="/tfc"],
@@ -523,7 +539,7 @@ table thead tr:nth-child(1) {
 .md td a[href*="whitecapsfc.com"],
 .md td a[href*="/whitecapsfc"],
 .content a[href="/VAN"] {
-    background-position: 0 -494px;
+    background-position: 0 -492px;
 }
 
 /**
