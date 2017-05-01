@@ -65,6 +65,10 @@ body>.content {
     margin-top: 242px;
 }
 
+.footer {
+    background-color: #fff;
+}
+
 /**
  * Fix Submit Page
  */
