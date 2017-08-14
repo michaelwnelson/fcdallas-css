@@ -424,8 +424,9 @@ table thead tr:nth-child(1) {
     background-position: 0 -573px;
 }
 .md td a[href*="atlutd.com"],
-.md td a[href*='/atlantaunited']
-.md td a[href*='/AtlantaUnited'] {
+.md td a[href*="/atlantaunited"],
+.md td a[href*="/AtlantaUnited"],
+.content a[href="/ATL"] {
     background-position: 1px -787px;
 }
 .md td a[href*="chicago-fire.com"],
