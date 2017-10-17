@@ -692,3 +692,10 @@ a[href="/penalty-missed"] { background-position: -32px -48px }
 .RESBigEditorPop {
      color: #4d5763 !important
 }
+
+/**
+ * Fix content submission page
+ */
+.submit-page .roundfield .title {
+    text-transform: none;
+}
