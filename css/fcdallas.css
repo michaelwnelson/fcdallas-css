@@ -684,3 +684,11 @@ a[href="/penalty-missed"] { background-position: -32px -48px }
 .flairselector form .flairselection .flairremove {
     margin: 0 5px;
 }
+
+/**
+ * Fix RESBigEditorPop
+ * The text is white due to an !important in another stylesheet ¯\_(ツ)_/¯
+ */
+.RESBigEditorPop {
+     color: #4d5763 !important
+}
