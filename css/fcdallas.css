@@ -699,3 +699,11 @@ a[href="/penalty-missed"] { background-position: -32px -48px }
 .submit-page .roundfield .title {
     text-transform: none;
 }
+
+/**
+ * Fix the hard-coded height on the #images, otherwise the content floats
+ * outside of the div and it's hard to see
+ */
+#images {
+    height: auto;
+}
