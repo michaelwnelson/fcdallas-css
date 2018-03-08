@@ -312,6 +312,7 @@ table thead tr:nth-child(1) {
  */
 .md td a[href*='mlssoccer.com'],
 .md td a[href*='concacaf.com'],
+.md td a[href*='concacafchampionsleague.com'],
 .md td a[href*='/MLS'],
 .md td a[href*='/CCL'],
 .md td a[href*='/USOC'],
@@ -421,6 +422,7 @@ table thead tr:nth-child(1) {
   background-position: 0 0;
 }
 .md td a[href*='concacaf.com'],
+.md td a[href*='concacafchampionsleague.com'],
 .md td a[href*='/CCL'],
 .content a[href='/CCL'] {
   background-position: 0 -653px;
