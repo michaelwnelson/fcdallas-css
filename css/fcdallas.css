@@ -567,7 +567,7 @@ table thead tr:nth-child(1) {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  width: 56px;
+  width: 80px;
   height: 80px;
   background-color: transparent;
   background-repeat: no-repeat;
@@ -576,85 +576,94 @@ table thead tr:nth-child(1) {
   white-space: nowrap;
 }
 a[href$='acosta'] {
-  background-position: -71px -5px;
+  background-position: -2px -2px;
 }
 a[href$='akindele'] {
-  background-position: -137px -5px;
+  background-position: -86px -2px;
+}
+a[href$='atuahene'] {
+  background-position: -170px -2px;
 }
 a[href$='barrios'] {
-  background-position: -203px -5px;
+  background-position: -254px -2px;
 }
 a[href$='cannon'] {
-  background-position: -269px -5px;
+  background-position: -338px -2px;
 }
-a[href$='cermeno'] {
-  background-position: -335px -5px;
+a[href$='cano'] {
+  background-position: -2px -86px;
 }
 a[href$='chala'] {
-  background-position: -5px -95px;
+  background-position: -86px -86px;
 }
 a[href$='colman'] {
-  background-position: -71px -95px;
-}
-a[href$='craft'] {
-  background-position: -137px -95px;
+  background-position: -170px -86px;
 }
 a[href$='diaz'] {
-  background-position: -203px -95px;
+  background-position: -254px -86px;
 }
 a[href$='ferreira'] {
-  background-position: -269px -95px;
+  background-position: -338px -86px;
 }
 a[href$='figueroa'] {
-  background-position: -335px -95px;
+  background-position: -2px -170px;
 }
 a[href$='gonzalez'] {
-  background-position: -5px -185px;
-}
-a[href$='grana'] {
-  background-position: -71px -185px;
+  background-position: -86px -170px;
 }
 a[href$='gruezo'] {
-  background-position: -137px -185px;
+  background-position: -170px -170px;
 }
-a[href$='guillen'] {
-  background-position: -203px -185px;
-}
-a[href$='harris'] {
-  background-position: -269px -185px;
+a[href$='hayes'] {
+  background-position: -254px -170px;
 }
 a[href$='hedges'] {
-  background-position: -335px -185px;
+  background-position: -338px -170px;
 }
 a[href$='hollingshead'] {
-  background-position: -5px -275px;
-}
-a[href$='hume'] {
-  background-position: -71px -275px;
+  background-position: -2px -254px;
 }
 a[href$='lamah'] {
-  background-position: -137px -275px;
+  background-position: -86px -254px;
 }
-a[href$='morales'] {
-  background-position: -203px -275px;
+a[href$='maurer'] {
+  background-position: -170px -254px;
+}
+a[href$='mosquera'] {
+  background-position: -254px -254px;
+}
+a[href$='nedyalkov'] {
+  background-position: -338px -254px;
 }
 a[href$='pomykal'] {
-  background-position: -269px -275px;
+  background-position: -2px -338px;
+}
+a[href$='reaves'] {
+  background-position: -86px -338px;
+}
+a[href$='reid'] {
+  background-position: -170px -338px;
 }
 a[href$='reynolds'] {
-  background-position: -335px -275px;
+  background-position: -254px -338px;
 }
-a[href$='seitz'] {
-  background-position: -401px -5px;
+a[href$='servania'] {
+  background-position: -338px -338px;
+}
+a[href$='twumasi'] {
+  background-position: -422px -2px;
 }
 a[href$='ulloa'] {
-  background-position: -401px -95px;
+  background-position: -422px -86px;
 }
 a[href$='urruti'] {
-  background-position: -401px -185px;
+  background-position: -422px -170px;
 }
-a[href$='zimmerman'] {
-  background-position: -401px -275px;
+a[href$='ziegler'] {
+  background-position: -422px -254px;
+}
+a[href$='zobeck'] {
+  background-position: -422px -338px;
 }
 
 /**
