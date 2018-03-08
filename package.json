@@ -1,6 +1,6 @@
 {
   "name": "fcdallas-css",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Custom /r/Naut theme for /r/fcdallas",
   "main": "gulpfile.js",
   "dependencies": {
