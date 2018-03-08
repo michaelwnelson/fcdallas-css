@@ -333,6 +333,9 @@ table thead tr:nth-child(1) {
 .md td a[href*='/fcdallas'],
 .md td a[href*='/FCDallas'],
 .md td a[href*='/lagalaxy'],
+.md td a[href*='/LAFC'],
+.md td a[href*='/lafc'],
+.md td a[href='lafc.com'],
 .md td a[href*='/LAGalaxy'],
 .md td a[href*='lagalaxy.com'],
 .md td a[href*='/minnesotaunited'],
@@ -384,6 +387,7 @@ table thead tr:nth-child(1) {
 .content a[href='/DC'],
 .content a[href='/FCD'],
 .content a[href='/HOU'],
+.content a[href='/LAFC'],
 .content a[href='/LAG'],
 .content a[href='/MON'],
 .content a[href='/MNU'],
@@ -463,6 +467,12 @@ table thead tr:nth-child(1) {
 .md td a[href*='/dynamo'],
 .content a[href='/HOU'] {
   background-position: 0 -180px;
+}
+.md td a[href*='lafc.com'],
+.md td a[href*='/lafc'],
+.md td a[href*='/LAFC'],
+.content a[href='/LAFC'] {
+  background-position: 0 -820px;
 }
 .md td a[href*='lagalaxy.com'],
 .md td a[href*='/lagalaxy'],
