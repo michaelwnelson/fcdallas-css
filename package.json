@@ -5,9 +5,9 @@
   "main": "gulpfile.js",
   "dependencies": {
     "gulp": "^3.9.1",
-    "gulp-util": "^3.0.7",
+    "gulp-clean-css": "^2.0.12",
     "gulp-concat": "^2.6.0",
-    "gulp-clean-css": "^2.0.12"
+    "gulp-util": "^3.0.8"
   },
   "devDependencies": {},
   "scripts": {
