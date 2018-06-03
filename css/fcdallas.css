@@ -770,6 +770,7 @@ a[href="/penalty-missed"] {
   border: 1px solid #ad0e02;
   background-color: #ea2212;
   color: #fafafa;
+  border-radius: 2px;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   font-weight: bold;
