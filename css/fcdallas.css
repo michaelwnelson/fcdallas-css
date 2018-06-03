@@ -797,6 +797,13 @@ a[href="/penalty-missed"] {
 }
 
 /**
+ * Fix flair in sidebar
+ */
+.res .titlebox .tagline {
+  margin-top: 15px;
+}
+
+/**
  * Fix RESBigEditorPop
  * The text is white due to an !important in another stylesheet ¯\_(ツ)_/¯
  */
