@@ -816,3 +816,25 @@ a[href="/penalty-missed"] {
 #images {
   height: auto;
 }
+
+/**
+ * Fix subreddit rules page
+ */
+.modtools-page > div.content {
+  margin-top: 242px;
+}
+
+.subreddit-rules-page {
+  background-color: #fff;
+}
+
+.subreddit-rules-page:before {
+  top: 5px;
+  left: 5px;
+}
+
+.subreddit-rules-page .subreddit-rule-add-form-buttons button {
+  background: #003e7e;
+  padding: 2px 18px;
+  border: none;
+}
