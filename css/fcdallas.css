@@ -745,7 +745,9 @@ a[href="/penalty-missed"] {
  * Make mods stand out
  */
 .author[href$="/bravoavocado"],
-.author[href$="/b0xors"] {
+.author[href$="/b0xors"],
+.author[href$="/le3dprintedcalfman"],
+.author[href$="/bepeacock"] {
   color: #008a00 !important;
   font-weight: 700;
 }
