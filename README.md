@@ -20,3 +20,10 @@ $ npm install
 
 ## Usage
 After making any changes, simply execute the command `gulp`. The default method calls `minify` which concatenates and minifies the Naut library and the customizations for the FC Dallas subreddit.
+
+## TODO
+- [ ] Scrape upcoming fixtures
+- [ ] Scrape results
+- [ ] Scrape injuries
+- [ ] Update subreddit with [PRAW](https://github.com/praw-dev/praw)
+
