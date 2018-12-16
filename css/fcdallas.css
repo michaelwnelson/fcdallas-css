@@ -14,13 +14,13 @@ body {
  * Solid Header Background
  */
 body:before {
-  background: transparent;
+  background: 0 0;
   background-image: none;
 }
 
 #header .tabmenu li a,
 .pagename a {
-  text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  text-shadow: 0 0 0 transparent;
 }
 
 /**
@@ -36,11 +36,11 @@ body:before {
 
 #header .pagename a {
   margin: 0 auto;
-  width: 150px;
+  width: 100%;
   height: 150px;
   display: block;
   text-indent: -9999px;
-  background: url(%%logo%%) 0 0 no-repeat;
+  background: url(%%logo%%) center 0 no-repeat;
 }
 
 #header .pagename a:hover {
@@ -208,7 +208,7 @@ div.titlebox span.number:after {
 
 .side .md > ul > li a,
 .side .md > ul > li a:visited {
-  color: #ffffff;
+  color: #fff;
 }
 
 .side .md > ul > li a:hover {
@@ -226,11 +226,11 @@ div.titlebox span.number:after {
 .md table {
   box-shadow: 2px 2px 2px #ccc;
   border-left: 1px solid #e8e8e8;
-  background-color: white;
+  background-color: #fff;
 }
 
-.md table th,
-.md table td {
+.md table td,
+.md table th {
   font-size: 0.8em;
 }
 
@@ -310,100 +310,99 @@ table thead tr:nth-child(1) {
  * Set default CSS for links to all club's website and/or subreddit
  * Included the few subreddits that can be case sensitive e.g. Rapids
  */
-.md td a[href*="mlssoccer.com"],
-.md td a[href*="concacaf.com"],
-.md td a[href*="concacafchampionsleague.com"],
-.md td a[href*="/MLS"],
-.md td a[href*="/CCL"],
-.md td a[href*="/USOC"],
-.md td a[href*="/atlantaunited"],
-.md td a[href*="/AtlantaUnited"],
-.md td a[href*="atlutd.com"],
-.md td a[href*="/chicagofire"],
-.md td a[href*="chicago-fire.com"],
-.md td a[href*="/rapids"],
-.md td a[href*="coloradorapids.com"],
-.md td a[href*="/themassive"],
-.md td a[href*="/TheMassive"],
-.md td a[href*="thecrew.com"],
-.md td a[href*="/dcunited"],
-.md td a[href*="/DCUnited"],
-.md td a[href*="dcunited.com"],
-.md td a[href*="/dynamo"],
-.md td a[href*="houstondynamo.com"],
-.md td a[href*="/fcdallas"],
-.md td a[href*="/FCDallas"],
-.md td a[href*="/lagalaxy"],
-.md td a[href*="/LAFC"],
-.md td a[href*="/lafc"],
-.md td a[href="lafc.com"],
-.md td a[href*="/LAGalaxy"],
-.md td a[href*="lagalaxy.com"],
-.md td a[href*="/minnesotaunited"],
-.md td a[href*="/MinnesotaUnited"],
-.md td a[href*="mnufc.com"],
-.md td a[href*="/montrealimpact"],
-.md td a[href*="impactmontreal.com"],
-.md td a[href*="/newenglandrevolution"],
-.md td a[href*="/NewEnglandRevolution"],
-.md td a[href*="revolutionsoccer.net"],
-.md td a[href*="/phillyunion"],
-.md td a[href*="/PhillyUnion"],
-.md td a[href*="philadelphiaunion.com"],
-.md td a[href*="/rbny"],
-.md td a[href*="newyorkredbulls.com"],
-.md td a[href*="/nycfc"],
-.md td a[href*="/NYCFC"],
-.md td a[href*="nycfc.com"],
-.md td a[href*="/OCLions"],
-.md td a[href*="/oclions"],
-.md td a[href*="orlandocitysc.com"],
-.md td a[href*="/realsaltlake"],
-.md td a[href*="realsaltlake.com"],
-.md td a[href*="/sjearthquakes"],
-.md td a[href*="/SJEarthquakes"],
-.md td a[href*="sjearthquakes.com"],
-.md td a[href*="/sportingkc"],
-.md td a[href*="sportingkc.com"],
-.md td a[href*="/soundersfc"],
-.md td a[href*="/SoundersFC"],
-.md td a[href*="soundersfc.com"],
-.md td a[href*="/timbers"],
-.md td a[href*="portlandtimbers.com"],
-.md td a[href*="/tfc"],
-.md td a[href*="/TFC"],
-.md td a[href*="torontofc.ca/"],
-.md td a[href*="/whitecapsfc"],
-.md td a[href*="whitecapsfc.com"],
-.md td a[href*="nycfc"],
-.md td a[href*="NYCFC"],
-.md td a[href*="nycfc.com"],
-.content a[href="/MLS"],
-.content a[href="/CCL"],
-.content a[href="/USOC"],
 .content a[href="/ATL"],
+.content a[href="/CCL"],
 .content a[href="/CHI"],
-.content a[href="/COL"],
 .content a[href="/CLB"],
+.content a[href="/COL"],
 .content a[href="/DC"],
 .content a[href="/FCD"],
 .content a[href="/HOU"],
 .content a[href="/LAFC"],
 .content a[href="/LAG"],
-.content a[href="/MON"],
+.content a[href="/MLS"],
 .content a[href="/MNU"],
-.content a[href="/OC"],
+.content a[href="/MON"],
 .content a[href="/NER"],
 .content a[href="/NYCFC"],
 .content a[href="/NYRB"],
+.content a[href="/OC"],
 .content a[href="/PHI"],
 .content a[href="/POR"],
 .content a[href="/RSL"],
-.content a[href="/SJE"],
 .content a[href="/SEA"],
+.content a[href="/SJE"],
 .content a[href="/SKC"],
 .content a[href="/TFC"],
-.content a[href="/VAN"] {
+.content a[href="/USOC"],
+.content a[href="/VAN"],
+.md td a[href*="/AtlantaUnited"],
+.md td a[href*="/CCL"],
+.md td a[href*="/DCUnited"],
+.md td a[href*="/FCDallas"],
+.md td a[href*="/LAFC"],
+.md td a[href*="/LAGalaxy"],
+.md td a[href*="/MLS"],
+.md td a[href*="/MinnesotaUnited"],
+.md td a[href*="/NYCFC"],
+.md td a[href*="/NewEnglandRevolution"],
+.md td a[href*="/OCLions"],
+.md td a[href*="/PhillyUnion"],
+.md td a[href*="/SJEarthquakes"],
+.md td a[href*="/SoundersFC"],
+.md td a[href*="/TFC"],
+.md td a[href*="/TheMassive"],
+.md td a[href*="/USOC"],
+.md td a[href*="/atlantaunited"],
+.md td a[href*="/chicagofire"],
+.md td a[href*="/dcunited"],
+.md td a[href*="/dynamo"],
+.md td a[href*="/fcdallas"],
+.md td a[href*="/lafc"],
+.md td a[href*="/lagalaxy"],
+.md td a[href*="/minnesotaunited"],
+.md td a[href*="/montrealimpact"],
+.md td a[href*="/newenglandrevolution"],
+.md td a[href*="/nycfc"],
+.md td a[href*="/oclions"],
+.md td a[href*="/phillyunion"],
+.md td a[href*="/rapids"],
+.md td a[href*="/rbny"],
+.md td a[href*="/realsaltlake"],
+.md td a[href*="/sjearthquakes"],
+.md td a[href*="/soundersfc"],
+.md td a[href*="/sportingkc"],
+.md td a[href*="/tfc"],
+.md td a[href*="/themassive"],
+.md td a[href*="/timbers"],
+.md td a[href*="/whitecapsfc"],
+.md td a[href*="atlutd.com"],
+.md td a[href*="chicago-fire.com"],
+.md td a[href*="coloradorapids.com"],
+.md td a[href*="concacaf.com"],
+.md td a[href*="concacafchampionsleague.com"],
+.md td a[href*="dcunited.com"],
+.md td a[href*="houstondynamo.com"],
+.md td a[href*="impactmontreal.com"],
+.md td a[href*="lagalaxy.com"],
+.md td a[href*="mlssoccer.com"],
+.md td a[href*="mnufc.com"],
+.md td a[href*="newyorkredbulls.com"],
+.md td a[href*="nycfc.com"],
+.md td a[href*="orlandocitysc.com"],
+.md td a[href*="philadelphiaunion.com"],
+.md td a[href*="portlandtimbers.com"],
+.md td a[href*="realsaltlake.com"],
+.md td a[href*="revolutionsoccer.net"],
+.md td a[href*="sjearthquakes.com"],
+.md td a[href*="soundersfc.com"],
+.md td a[href*="sportingkc.com"],
+.md td a[href*="thecrew.com"],
+.md td a[href*="torontofc.ca/"],
+.md td a[href*="whitecapsfc.com"],
+.md td a[href*="NYCFC"],
+.md td a[href*="nycfc"],
+.md td a[href="lafc.com"] {
   background-color: transparent;
   background-image: url(%%clubs%%);
   background-repeat: no-repeat;
@@ -416,148 +415,148 @@ table thead tr:nth-child(1) {
 /**
  * Set the background position for each URL, including case-sensitive subreddits
  */
-.md td a[href*="mlssoccer.com/all-star"],
+.content a[href="/MLS"],
 .md td a[href*="/mls"],
-.content a[href="/MLS"] {
+.md td a[href*="mlssoccer.com/all-star"] {
   background-position: 0 0;
 }
-.md td a[href*="concacaf.com"],
-.md td a[href*="concacafchampionsleague.com"],
+.content a[href="/CCL"],
 .md td a[href*="/CCL"],
-.content a[href="/CCL"] {
+.md td a[href*="concacaf.com"],
+.md td a[href*="concacafchampionsleague.com"] {
   background-position: 0 -653px;
 }
-.md td a[href*="/USOC"],
-.content a[href="/USOC"] {
+.content a[href="/USOC"],
+.md td a[href*="/USOC"] {
   background-position: 0 -573px;
 }
-.md td a[href*="atlutd.com"],
-.md td a[href*="/atlantaunited"],
+.content a[href="/ATL"],
 .md td a[href*="/AtlantaUnited"],
-.content a[href="/ATL"] {
+.md td a[href*="/atlantaunited"],
+.md td a[href*="atlutd.com"] {
   background-position: 1px -787px;
 }
-.md td a[href*="chicago-fire.com"],
+.content a[href="/CHI"],
 .md td a[href*="/chicagofire"],
-.content a[href="/CHI"] {
+.md td a[href*="chicago-fire.com"] {
   background-position: 0 -24px;
 }
-.md td a[href*="coloradorapids.com"],
-.md td a[href*="/rapids"],
+.content a[href="/COL"],
 .md td a[href*="/Rapids"],
-.content a[href="/COL"] {
+.md td a[href*="/rapids"],
+.md td a[href*="coloradorapids.com"] {
   background-position: 0 -76px;
 }
-.md td a[href*="thecrew.com"],
-.md td a[href*="/themassive"],
+.content a[href="/CLB"],
 .md td a[href*="/TheMassive"],
-.content a[href="/CLB"] {
+.md td a[href*="/themassive"],
+.md td a[href*="thecrew.com"] {
   background-position: 0 -102px;
 }
-.md td a[href*="dcunited.com"],
-.md td a[href*="/dcunited"],
+.content a[href="/DC"],
 .md td a[href*="/DCUnited"],
-.content a[href="/DC"] {
+.md td a[href*="/dcunited"],
+.md td a[href*="dcunited.com"] {
   background-position: 0 -128px;
 }
-.md td a[href*="/fcdallas"],
+.content a[href="/FCD"],
 .md td a[href*="/FCDallas"],
-.content a[href="/FCD"] {
+.md td a[href*="/fcdallas"] {
   background-position: 0 -154px;
 }
-.md td a[href*="houstondynamo.com"],
+.content a[href="/HOU"],
 .md td a[href*="/dynamo"],
-.content a[href="/HOU"] {
+.md td a[href*="houstondynamo.com"] {
   background-position: 0 -180px;
 }
-.md td a[href*="lafc.com"],
-.md td a[href*="/lafc"],
+.content a[href="/LAFC"],
 .md td a[href*="/LAFC"],
-.content a[href="/LAFC"] {
+.md td a[href*="/lafc"],
+.md td a[href*="lafc.com"] {
   background-position: 0 -820px;
 }
-.md td a[href*="lagalaxy.com"],
-.md td a[href*="/lagalaxy"],
+.content a[href="/LAG"],
 .md td a[href*="/LAGalaxy"],
-.content a[href="/LAG"] {
+.md td a[href*="/lagalaxy"],
+.md td a[href*="lagalaxy.com"] {
   background-position: 0 -206px;
 }
-.md td a[href*="mnufc.com"],
-.md td a[href*="/minnesotaunited"],
+.content a[href="/MNU"],
 .md td a [href*="/MinnesotaUnited"],
-.content a[href="/MNU"] {
+.md td a[href*="/minnesotaunited"],
+.md td a[href*="mnufc.com"] {
   background-position: 0 -755px;
 }
-.md td a[href*="impactmontreal.com"],
+.content a[href="/MON"],
 .md td a[href*="/montrealimpact"],
-.content a[href="/MON"] {
+.md td a[href*="impactmontreal.com"] {
   background-position: 0 -232px;
 }
-.md td a[href*="revolutionsoccer.net"],
-.md td a[href*="/newenglandrevolution"],
+.content a[href="/NER"],
 .md td a[href*="/NewEnglandRevolution"],
-.content a[href="/NER"] {
+.md td a[href*="/newenglandrevolution"],
+.md td a[href*="revolutionsoccer.net"] {
   background-position: 0 -258px;
 }
-.md td a[href*="newyorkredbulls.com"],
+.content a[href="/NYRB"],
 .md td a[href*="/rbny"],
-.content a[href="/NYRB"] {
+.md td a[href*="newyorkredbulls.com"] {
   background-position: 0 -284px;
 }
-.md td a[href*="/nycfc"],
+.content a[href="/NYCFC"],
 .md td a[href*="/NYCFC"],
-.md td a[href*="nycfc.com"],
-.content a[href="/NYCFC"] {
+.md td a[href*="/nycfc"],
+.md td a[href*="nycfc.com"] {
   background-position: 0 -544px;
 }
+.content a[href="/OC"],
 .md td a[href*="/OCLions"],
 .md td a[href*="/oclions"],
-.md td a[href*="orlandocitysc.com"],
-.content a[href="/OC"] {
+.md td a[href*="orlandocitysc.com"] {
   background-position: 0 -517px;
 }
-.md td a[href*="philadelphiaunion.com"],
-.md td a[href*="/phillyunion"],
+.content a[href="/PHI"],
 .md td a[href*="/PhillyUnion"],
-.content a[href="/PHI"] {
+.md td a[href*="/phillyunion"],
+.md td a[href*="philadelphiaunion.com"] {
   background-position: 0 -310px;
 }
-.md td a[href*="portlandtimbers.com"],
+.content a[href="/POR"],
 .md td a[href*="/timbers"],
-.content a[href="/POR"] {
+.md td a[href*="portlandtimbers.com"] {
   background-position: 0 -336px;
 }
-.md td a[href*="realsaltlake.com"],
+.content a[href="/RSL"],
 .md td a[href*="/realsaltlake"],
-.content a[href="/RSL"] {
+.md td a[href*="realsaltlake.com"] {
   background-position: 0 -362px;
 }
-.md td a[href*="sjearthquakes.com"],
-.md td a[href*="/sjearthquakes"],
+.content a[href="/SJE"],
 .md td a[href*="/SJEarthquakes"],
-.content a[href="/SJE"] {
+.md td a[href*="/sjearthquakes"],
+.md td a[href*="sjearthquakes.com"] {
   background-position: 0 -388px;
 }
-.md td a[href*="soundersfc.com"],
-.md td a[href*="/soundersfc"],
+.content a[href="/SEA"],
 .md td a[href*="/SoundersFC"],
-.content a[href="/SEA"] {
+.md td a[href*="/soundersfc"],
+.md td a[href*="soundersfc.com"] {
   background-position: 0 -414px;
 }
-.md td a[href*="sportingkc.com"],
+.content a[href="/SKC"],
 .md td a[href*="/sportingkc"],
-.content a[href="/SKC"] {
+.md td a[href*="sportingkc.com"] {
   background-position: 0 -440px;
 }
-.md td a[href*="torontofc.ca"],
-.md td a[href*="/tfc"],
+.content a[href="/TOR"],
 .md td a[href*="/TFC"],
-.content a[href="/TOR"] {
+.md td a[href*="/tfc"],
+.md td a[href*="torontofc.ca"] {
   background-position: 0 -466px;
 }
-.md td a[href*="whitecapsfc.com"],
+.content a[href="/VAN"],
 .md td a[href*="/whitecapsfc"],
-.content a[href="/VAN"] {
+.md td a[href*="whitecapsfc.com"] {
   background-position: 0 -492px;
 }
 
@@ -671,21 +670,21 @@ a[href$="zobeck"] {
 /**
  * Match Thread Icons
  */
-a[href="/yellow"],
-a[href="/second-yellow"],
-a[href="/red"],
-a[href="/injury"],
-a[href="/captain"],
-a[href="/sub"],
-a[href="/sub-on"],
-a[href="/sub-off"],
-a[href="/goal"],
-a[href="/own-goal"],
 a[href="/assist"],
-a[href="/whistle"],
+a[href="/captain"],
+a[href="/goal"],
+a[href="/injury"],
 a[href="/offside"],
+a[href="/own-goal"],
 a[href="/penalty-made"],
-a[href="/penalty-missed"] {
+a[href="/penalty-missed"],
+a[href="/red"],
+a[href="/second-yellow"],
+a[href="/sub"],
+a[href="/sub-off"],
+a[href="/sub-on"],
+a[href="/whistle"],
+a[href="/yellow"] {
   width: 15px;
   height: 15px;
   background-color: transparent;
@@ -846,4 +845,50 @@ a[href="/penalty-missed"] {
   background: #003e7e;
   padding: 2px 18px;
   border: none;
+}
+
+.linkflair {
+  background-repeat: no-repeat;
+  padding-top: 20px;
+}
+.linkflair-fcdallas:not(.search-result) {
+  background-image: url(%%lf-fcdallas%%);
+}
+
+.linkflair-ntsc:not(.search-result) {
+  background-image: url(%%lf-ntsc%%);
+}
+
+.linkflair-sidekicks:not(.search-result) {
+  background-image: url(%%lf-sidekicks%%);
+}
+
+.flair,
+.linkflairlabel {
+  border: 1px solid #ad0e02;
+  background-color: #ea2212;
+  color: #fafafa;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  font-weight: 700;
+  margin: 1px 3px;
+  padding: 1px 3px;
+  display: none;
+}
+
+.flairoptionpane ul li .linkflair {
+  padding: 5px 0;
+}
+
+.flairoptionpane ul li .linkflair a.title {
+  font-size: 0 !important;
+}
+
+/**
+ * Hide the label on the detail page
+ */
+.flair,
+.linkflairlabel {
+  display: none;
 }
