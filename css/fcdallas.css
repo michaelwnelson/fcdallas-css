@@ -863,6 +863,22 @@ a[href="/penalty-missed"] {
   background-image: url(%%lf-sidekicks%%);
 }
 
+.linkflair-usl2:not(.search-result) {
+  background-image: url(%%lf-usl2%%);
+}
+
+.linkflair-npsl:not(.search-result) {
+  background-image: url(%%lf-npsl%%);
+}
+
+.linkflair-upsl:not(.search-result) {
+  background-image: url(%%lf-upsl%%);
+}
+
+.linkflair-ntpsa:not(.search-result) {
+  background-image: url(%%lf-ntpsa%%);
+}
+
 .flair,
 .linkflairlabel {
   border: 1px solid #ad0e02;
