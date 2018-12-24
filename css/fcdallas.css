@@ -1200,3 +1200,41 @@ a[href="/penalty-missed"] {
 .linkflairlabel {
   display: none;
 }
+
+/**
+ * Snow!
+ */
+body:before {
+  height: 270px;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  content: "";
+  text-indent: -9999px;
+  z-index: 9999;
+  background-image: url(%%snowflake%%), url(%%snowflake2%%), url(%%snowflake3%%);
+  background-repeat: repeat, repeat, repeat;
+  background-position: 0 0, 0 0, 0 0, 50% 0;
+  animation: snow 30s linear infinite;
+  -webkit-animation: snow 30s linear infinite;
+  pointer-events: none;
+}
+
+@keyframes snow {
+  from {
+    background-position: 0 0, 0 0, 0 0;
+  }
+  to {
+    background-position: 500px 1000px, 400px 400px, 300px 300px;
+  }
+}
+@-webkit-keyframes snow {
+  from {
+    background-position: 0 0, 0 0, 0 0;
+  }
+  to {
+    background-position: 500px 1000px, 400px 400px, 300px 300px;
+  }
+}
