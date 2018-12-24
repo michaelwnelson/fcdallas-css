@@ -952,11 +952,11 @@ a[href="/penalty-missed"] {
 }
 
 .flair-mls:before {
-  background-position: -360 -60px;
+  background-position: -360px -60px;
 }
 
 .flair-soccer:before {
-  background-position: 0 -90px;
+  background-position: 0px -90px;
 }
 
 .flair-yellow:before {
@@ -964,7 +964,7 @@ a[href="/penalty-missed"] {
 }
 
 .flair-red:before {
-  background-position: -60 -90px;
+  background-position: -60px -90px;
 }
 
 /**
