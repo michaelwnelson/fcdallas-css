@@ -903,6 +903,70 @@ a[href="/penalty-missed"] {
   background-position: 0 -30px;
 }
 
+.flair-fcd:before {
+  background-position: 0 -60px;
+}
+
+.flair-ntsc:before {
+  background-position: -30px -60px;
+}
+
+.flair-sidekicks:before {
+  background-position: -60px -60px;
+}
+
+.flair-fccleburne:before {
+  background-position: -90px -60px;
+}
+
+.flair-txunited:before {
+  background-position: -120px -60px;
+}
+
+.flair-vaqueros:before {
+  background-position: -150px -60px;
+}
+
+.flair-diablos:before {
+  background-position: -180px -60px;
+}
+
+.flair-upsl:before {
+  background-position: -210px -60px;
+}
+
+.flair-ntpsa:before {
+  background-position: -240px -60px;
+}
+
+.flair-elmat:before {
+  background-position: -270px -60px;
+}
+
+.flair-dbg:before {
+  background-position: -300px -60px;
+}
+
+.flair-dtid:before {
+  background-position: -330px -60px;
+}
+
+.flair-mls:before {
+  background-position: -360 -60px;
+}
+
+.flair-soccer:before {
+  background-position: 0 -90px;
+}
+
+.flair-yellow:before {
+  background-position: -30px -90px;
+}
+
+.flair-red:before {
+  background-position: -60 -90px;
+}
+
 /**
  * Flair Selector
  */
