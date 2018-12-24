@@ -761,29 +761,184 @@ a[href="/penalty-missed"] {
   font-size: 10px;
 }
 
-.flair:before {
-  content: "";
-  margin: 0;
+/**
+ * Flair
+ */
+.flair {
+  position: relative;
+  font-size: 11px !important;
+  margin: 0 -3px 0 36px;
+  padding: 0;
+  width: 0;
+  max-width: 30px;
+  background: transparent;
+  border: 1px solid transparent;
+  line-height: 20px;
+  text-indent: -9999px;
 }
 
-.flair,
-.linkflairlabel {
-  border: 1px solid #ad0e02;
-  background-color: #ea2212;
-  color: #fafafa;
-  border-radius: 2px;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  font-weight: bold;
-  margin: 1px 3px;
-  padding: 1px 3px;
+.flair:hover {
+  max-width: inherit;
+  margin: 0 4px 0 36px;
+  padding: 0 5px;
+  width: auto;
+  border: 1px solid #e6e6e6;
+  text-indent: 0;
+  border-radius: 3px;
+  color: #ff0000;
+  background: #ffffff;
+}
+
+.flair:before {
+  content: "";
+  position: absolute;
+  color: #ff0000;
+  top: -5px;
+  left: -36px;
+  width: 30px;
+  height: 30px;
+  background: url(%%FCD-flairsheet%%) no-repeat 0 0;
+}
+
+/**
+ * Flair Players
+ */
+.flair-aranguiz:before {
+  background-position: 0 0;
+}
+
+.flair-atuahene:before {
+  background-position: -30px 0;
+}
+
+.flair-badji:before {
+  background-position: -60px 0;
+}
+
+.flair-barrios:before {
+  background-position: -90px 0;
+}
+
+.flair-cannon:before {
+  background-position: -120px 0;
+}
+
+.flair-colman:before {
+  background-position: -150px 0;
+}
+
+.flair-ferreira:before {
+  background-position: -180px 0;
+}
+
+.flair-gonzalez:before {
+  background-position: -210px 0;
+}
+
+.flair-gruezo:before {
+  background-position: -240px 0;
+}
+
+.flair-hayes:before {
+  background-position: -270px 0;
+}
+
+.flair-hedges:before {
+  background-position: -300px 0;
+}
+
+.flair-hernandez:before {
+  background-position: -330px 0;
+}
+
+.flair-hollingshead:before {
+  background-position: -360px 0;
+}
+
+.flair-maurer:before {
+  background-position: -390px 0;
+}
+
+.flair-mosquera:before {
+  background-position: -420px 0;
+}
+
+.flair-ondrasek:before {
+  background-position: -450px 0;
+}
+
+.flair-pedroso:before {
+  background-position: -480px 0;
+}
+
+.flair-pomykal:before {
+  background-position: -510px 0;
+}
+
+.flair-reynolds:before {
+  background-position: -540px 0;
+}
+
+.flair-roberts:before {
+  background-position: -570px 0;
+}
+
+.flair-servania:before {
+  background-position: -600px 0;
+}
+
+.flair-twumasi:before {
+  background-position: -630px 0;
+}
+
+.flair-ziegler:before {
+  background-position: -660px 0;
+}
+
+.flair-zobeck:before {
+  background-position: -690px 0;
+}
+
+.flair-luchi:before {
+  background-position: 0 -30px;
 }
 
 /**
  * Flair Selector
  */
-.flairselector {
-  width: 275px !important;
+.flairselector.active {
+  top: 50% !important;
+  width: 500px !important;
+  padding: 5px !important;
+  -webkit-transform: translate(-50%, -50%) !important;
+  transform: translate(-50%, -50%) !important;
+  border: none;
+  background-color: #fff;
+}
+
+.flairoptionpane {
+  height: auto;
+  max-height: 400px;
+  background: #f5f5f5;
+  margin: 0;
+  overflow: hidden;
+}
+
+.flairselector h2 {
+  background: #fafafa;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #bbb;
+  line-height: 33px;
+  margin: 0;
+}
+
+.flairselector form {
+  border-top: solid 1px #eee;
+  background: #fafafa;
+  padding: 10px 2px;
 }
 
 .flairselector form .flairselection:before {
@@ -793,6 +948,82 @@ a[href="/penalty-missed"] {
 
 .flairselector form .flairselection .flairremove {
   margin: 0 5px;
+}
+
+.flairselector ul {
+  display: inline !important;
+  float: none !important;
+  white-space: normal;
+  margin: 0;
+}
+
+.flairselector li {
+  width: 52px !important;
+  height: 52px !important;
+  padding: 10px;
+  border: none;
+  background: none;
+  display: inline-block !important;
+}
+
+.flairselector .flair {
+  height: 32px;
+  width: 32px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  font-size: 0 !important;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.flairselector .flair:before {
+  top: 0;
+  left: 0;
+}
+
+.flairselector .flair:hover {
+  opacity: 1;
+}
+
+.flairselector .flair {
+  height: 32px;
+  width: 32px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  font-size: 0 !important;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.flairselection .flair {
+  opacity: 1;
+}
+
+.flairselector .customizer {
+  display: none;
+}
+
+.flairselector form .flairselection {
+  text-align: center;
+}
+
+.flairselector.active form button {
+  margin: 4px 4px 4px 0;
+}
+
+.flairselector.active .status {
+  display: none;
+}
+
+.flairselector.active form .flair {
+  font-size: 12px !important;
+  transition: none;
+  text-indent: 32px;
+  color: #ff0000;
 }
 
 /**
@@ -858,11 +1089,11 @@ a[href="/penalty-missed"] {
 /**
  * Link flair!
  */
-
 .linkflair {
   background-repeat: no-repeat;
   padding-top: 20px;
 }
+
 .linkflair-fcdallas:not(.search-result) {
   background-image: url(%%lf-fcdallas%%);
 }
@@ -891,20 +1122,6 @@ a[href="/penalty-missed"] {
   background-image: url(%%lf-ntpsa%%);
 }
 
-.flair,
-.linkflairlabel {
-  border: 1px solid #ad0e02;
-  background-color: #ea2212;
-  color: #fafafa;
-  border-radius: 2px;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  font-weight: 700;
-  margin: 1px 3px;
-  padding: 1px 3px;
-  display: none;
-}
-
 .flairoptionpane ul li .linkflair {
   padding: 5px 0;
 }
@@ -919,71 +1136,3 @@ a[href="/penalty-missed"] {
 .linkflairlabel {
   display: none;
 }
-
-/* Flair */
-.flair {
-    position: relative;
-    font-size: 11px!important;
-    margin: 0 -3px 0 36px;
-    padding: 0;
-    width: 0;
-    max-width: 30px;
-    background: transparent;
-    border: 1px solid transparent;
-    line-height: 20px;
-    text-indent: -9999px
-}
-
-.flair:hover {
-    max-width: inherit;
-    margin: 0 4px 0 36px;
-    padding: 0 5px;
-    width: auto;
-    border: 1px solid #E6E6E6;
-    text-indent: 0;
-    border-radius: 3px;
-    background: white;
-}
-
-.flair:before {
-	content: "";
-	position: absolute;
-	top: -5px;
-	left: -36px;
-	float: left;
-	display: inline-block;
-	width: 30px;
-	height: 30px;
-	background: url(%%FCD-flairsheet%%) no-repeat 0 0;
-}
-
-/* Players
--------- */
-.flair-aranguiz:before { background-position: 0 0; }
-.flair-atuahene:before { background-position: -30px 0; }
-.flair-badji:before { background-position: -60px 0; }
-.flair-barrios:before { background-position: -90px 0; }
-.flair-cannon:before { background-position: -120px 0; }
-.flair-colman:before { background-position: -150px 0; }
-.flair-ferreira:before { background-position: -180px 0; }
-.flair-gonzalez:before { background-position: -210px 0; }
-.flair-gruezo:before { background-position: -240px 0; }
-.flair-hayes:before { background-position: -270px 0; }
-.flair-hedges:before { background-position: -300px 0; }
-.flair-hernandez:before { background-position: -330px 0; }
-.flair-hollingshead:before { background-position: -360px 0; }
-.flair-maurer:before { background-position: -390px 0; }
-.flair-mosquera:before { background-position: -420px 0; }
-.flair-ondrasek:before { background-position: -450px 0; }
-.flair-pedroso:before { background-position: -480px 0; }
-.flair-pomykal:before { background-position: -510px 0; }
-.flair-reynolds:before { background-position: -540px 0; }
-.flair-roberts:before { background-position: -570px 0; }
-.flair-servania:before { background-position: -600px 0; }
-.flair-twumasi:before { background-position: -630px 0; }
-.flair-ziegler:before { background-position: -660px 0; }
-.flair-zobeck:before { background-position: -690px 0; }
-
-/* Players
--------- */
-.flair-luchi:before { background-position: 0 -30px; }
