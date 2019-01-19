@@ -576,95 +576,81 @@ table thead tr:nth-child(1) {
   text-indent: -9999px;
   white-space: nowrap;
 }
+
 a[href$="acosta"] {
-  background-position: -2px -2px;
+  background-position-x: calc(-135px * 1);
 }
-a[href$="akindele"] {
-  background-position: -86px -2px;
+a[href$="aranguiz"] {
+  background-position-x: calc(-135px * 2);
 }
 a[href$="atuahene"] {
-  background-position: -170px -2px;
+  background-position-x: calc(-135px * 3);
+}
+a[href$="badji"] {
+  background-position-x: calc(-135px * 4);
 }
 a[href$="barrios"] {
-  background-position: -254px -2px;
+  background-position-x: calc(-135px * 5);
+}
+a[href$="bressan"] {
+  background-position-x: calc(-135px * 6);
 }
 a[href$="cannon"] {
-  background-position: -338px -2px;
-}
-a[href$="cano"] {
-  background-position: -2px -86px;
-}
-a[href$="chala"] {
-  background-position: -86px -86px;
+  background-position-x: calc(-135px * 7);
 }
 a[href$="colman"] {
-  background-position: -170px -86px;
-}
-a[href$="diaz"] {
-  background-position: -254px -86px;
+  background-position-x: calc(-135px * 8);
 }
 a[href$="ferreira"] {
-  background-position: -338px -86px;
-}
-a[href$="figueroa"] {
-  background-position: -2px -170px;
+  background-position-x: calc(-135px * 9);
 }
 a[href$="gonzalez"] {
-  background-position: -86px -170px;
+  background-position-x: calc(-135px * 10);
 }
 a[href$="gruezo"] {
-  background-position: -170px -170px;
+  background-position-x: calc(-135px * 11);
 }
 a[href$="hayes"] {
-  background-position: -254px -170px;
+  background-position-x: calc(-135px * 12);
 }
 a[href$="hedges"] {
-  background-position: -338px -170px;
+  background-position-x: calc(-135px * 13);
+}
+a[href$="hernandez"] {
+  background-position-x: calc(-135px * 14);
 }
 a[href$="hollingshead"] {
-  background-position: -2px -254px;
-}
-a[href$="lamah"] {
-  background-position: -86px -254px;
+  background-position-x: calc(-135px * 15);
 }
 a[href$="maurer"] {
-  background-position: -170px -254px;
+  background-position-x: calc(-135px * 16);
 }
 a[href$="mosquera"] {
-  background-position: -254px -254px;
+  background-position-x: calc(-135px * 17);
 }
-a[href$="nedyalkov"] {
-  background-position: -338px -254px;
+a[href$="ondrasek"] {
+  background-position-x: calc(-135px * 18);
+}
+a[href$="pedroso"] {
+  background-position-x: calc(-135px * 19);
 }
 a[href$="pomykal"] {
-  background-position: -2px -338px;
-}
-a[href$="reaves"] {
-  background-position: -86px -338px;
-}
-a[href$="reid"] {
-  background-position: -170px -338px;
+  background-position-x: calc(-135px * 20);
 }
 a[href$="reynolds"] {
-  background-position: -254px -338px;
+  background-position-x: calc(-135px * 21);
 }
-a[href$="servania"] {
-  background-position: -338px -338px;
+a[href$="roberts"] {
+  background-position-x: calc(-135px * 22);
 }
 a[href$="twumasi"] {
-  background-position: -422px -2px;
-}
-a[href$="ulloa"] {
-  background-position: -422px -86px;
-}
-a[href$="urruti"] {
-  background-position: -422px -170px;
+  background-position-x: calc(-135px * 23);
 }
 a[href$="ziegler"] {
-  background-position: -422px -254px;
+  background-position-x: calc(-135px * 24);
 }
 a[href$="zobeck"] {
-  background-position: -422px -338px;
+  background-position-x: calc(-135px * 25);
 }
 
 /**
