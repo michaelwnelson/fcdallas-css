@@ -1,5 +1,5 @@
 /*==============================================================================
-  FC Dallas subreddit CSS version 1.1.1
+  FC Dallas subreddit CSS version 1.2.0
   Custom /r/Naut theme by /u/b0xors
  =============================================================================*/
 
@@ -568,8 +568,8 @@ table thead tr:nth-child(1) {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   background-color: transparent;
   background-repeat: no-repeat;
   content: "";
@@ -577,80 +577,80 @@ table thead tr:nth-child(1) {
   white-space: nowrap;
 }
 
-a[href$="acosta"] {
-  background-position-x: calc(-135px * 1);
+.side td a[href$="acosta"] {
+  background-position-x: 0;
 }
-a[href$="aranguiz"] {
-  background-position-x: calc(-135px * 2);
+.side td a[href$="aranguiz"] {
+  background-position-x: -100px;
 }
-a[href$="atuahene"] {
-  background-position-x: calc(-135px * 3);
+.side td a[href$="atuahene"] {
+  background-position-x: calc(-100px * 2);
 }
-a[href$="badji"] {
-  background-position-x: calc(-135px * 4);
+.side td a[href$="badji"] {
+  background-position-x: calc(-100px * 3);
 }
-a[href$="barrios"] {
-  background-position-x: calc(-135px * 5);
+.side td a[href$="barrios"] {
+  background-position-x: calc(-100px * 4);
 }
-a[href$="bressan"] {
-  background-position-x: calc(-135px * 6);
+.side td a[href$="bressan"] {
+  background-position-x: calc(-100px * 5);
 }
-a[href$="cannon"] {
-  background-position-x: calc(-135px * 7);
+.side td a[href$="cannon"] {
+  background-position-x: calc(-100px * 6);
 }
-a[href$="colman"] {
-  background-position-x: calc(-135px * 8);
+.side td a[href$="colman"] {
+  background-position-x: calc(-100px * 7);
 }
-a[href$="ferreira"] {
-  background-position-x: calc(-135px * 9);
+.side td a[href$="ferreira"] {
+  background-position-x: calc(-100px * 8);
 }
-a[href$="gonzalez"] {
-  background-position-x: calc(-135px * 10);
+.side td a[href$="gonzalez"] {
+  background-position-x: calc(-100px * 9);
 }
-a[href$="gruezo"] {
-  background-position-x: calc(-135px * 11);
+.side td a[href$="gruezo"] {
+  background-position-x: calc(-100px * 10);
 }
-a[href$="hayes"] {
-  background-position-x: calc(-135px * 12);
+.side td a[href$="hayes"] {
+  background-position-x: calc(-100px * 11);
 }
-a[href$="hedges"] {
-  background-position-x: calc(-135px * 13);
+.side td a[href$="hedges"] {
+  background-position-x: calc(-100px * 12);
 }
-a[href$="hernandez"] {
-  background-position-x: calc(-135px * 14);
+.side td a[href$="hernandez"] {
+  background-position-x: calc(-100px * 13);
 }
-a[href$="hollingshead"] {
-  background-position-x: calc(-135px * 15);
+.side td a[href$="hollingshead"] {
+  background-position-x: calc(-100px * 14);
 }
-a[href$="maurer"] {
-  background-position-x: calc(-135px * 16);
+.side td a[href$="maurer"] {
+  background-position-x: calc(-100px * 15);
 }
-a[href$="mosquera"] {
-  background-position-x: calc(-135px * 17);
+.side td a[href$="mosquera"] {
+  background-position-x: calc(-100px * 16);
 }
-a[href$="ondrasek"] {
-  background-position-x: calc(-135px * 18);
+.side td a[href$="ondrasek"] {
+  background-position-x: calc(-100px * 17);
 }
-a[href$="pedroso"] {
-  background-position-x: calc(-135px * 19);
+.side td a[href$="pedroso"] {
+  background-position-x: calc(-100px * 18);
 }
-a[href$="pomykal"] {
-  background-position-x: calc(-135px * 20);
+.side td a[href$="pomykal"] {
+  background-position-x: calc(-100px * 19);
 }
-a[href$="reynolds"] {
-  background-position-x: calc(-135px * 21);
+.side td a[href$="reynolds"] {
+  background-position-x: calc(-100px * 20);
 }
-a[href$="roberts"] {
-  background-position-x: calc(-135px * 22);
+.side td a[href$="roberts"] {
+  background-position-x: calc(-100px * 21);
 }
-a[href$="twumasi"] {
-  background-position-x: calc(-135px * 23);
+.side td a[href$="twumasi"] {
+  background-position-x: calc(-100px * 22);
 }
-a[href$="ziegler"] {
-  background-position-x: calc(-135px * 24);
+.side td a[href$="ziegler"] {
+  background-position-x: calc(-100px * 23);
 }
-a[href$="zobeck"] {
-  background-position-x: calc(-135px * 25);
+.side td a[href$="zobeck"] {
+  background-position-x: calc(-100px * 24);
 }
 
 /**

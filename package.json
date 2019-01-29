@@ -1,16 +1,14 @@
 {
   "name": "fcdallas-css",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Custom /r/Naut theme for /r/fcdallas",
   "main": "gulpfile.js",
   "dependencies": {
-    "gulp": "^3.9.1",
-    "gulp-clean-css": "^2.0.12",
-    "gulp-concat": "^2.6.0",
-    "gulp-util": "^3.0.8"
+    "clean-css-cli": "^4.2.1"
   },
   "devDependencies": {},
   "scripts": {
+    "minify": "cleancss -O1 --skip-rebase -o minified.css css/naut.css css/fcdallas.css",
     "test": "echo \"Error: no test specified\" && exit 1",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
