@@ -1189,7 +1189,7 @@ a[href="/penalty-missed"] {
 
 /**
  * Snow!
- */
+ *
 body:before {
   height: 270px;
   top: 0;
@@ -1224,3 +1224,6 @@ body:before {
     background-position: 500px 1000px, 400px 400px, 300px 300px;
   }
 }
+*
+* Until next time, snowflakes.
+*/
