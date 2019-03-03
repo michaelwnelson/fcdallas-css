@@ -294,7 +294,10 @@ table thead tr:nth-child(1) {
   color: #00295b;
 }
 
-.side .md table:nth-of-type(3) tr:nth-of-type(6) {
+/**
+ * Playoff cutoff
+ */
+.side .md table:nth-of-type(3) tr:nth-of-type(7) {
   border-bottom: 3px solid red;
 }
 
