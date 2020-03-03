@@ -294,7 +294,10 @@ table thead tr:nth-child(1) {
   color: #00295b;
 }
 
-.side .md table:nth-of-type(3) tr:nth-of-type(6) {
+/**
+ * Playoff cutoff
+ */
+.side .md table:nth-of-type(3) tr:nth-of-type(7) {
   border-bottom: 3px solid red;
 }
 
@@ -734,7 +737,14 @@ a[href="/penalty-missed"] {
 .author[href$="/le3dprintedcalfman"],
 .author[href$="/bepeacock"] {
   color: #008a00 !important;
-  font-weight: 700;
+}
+
+/**
+ * Make offical FC Dallas account standout
+ */
+.author[href$="/fcdallas"] {
+  color: #ad0e02 !important;
+  border-bottom: 2px solid #ad0e02;
 }
 
 /**
@@ -1193,7 +1203,7 @@ a[href="/penalty-missed"] {
 
 /**
  * Snow!
- */
+ *
 body:before {
   height: 270px;
   top: 0;
@@ -1228,3 +1238,6 @@ body:before {
     background-position: 500px 1000px, 400px 400px, 300px 300px;
   }
 }
+*
+* Until next time, snowflakes.
+*/
