@@ -571,8 +571,8 @@ table thead tr:nth-child(1) {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  width: 100px;
-  height: 100px;
+  width: 135px;
+  height: 135px;
   background-color: transparent;
   background-repeat: no-repeat;
   content: "";
@@ -584,76 +584,91 @@ table thead tr:nth-child(1) {
   background-position-x: 0;
 }
 .side td a[href$="aranguiz"] {
-  background-position-x: -100px;
+  background-position-x: -135px;
 }
 .side td a[href$="atuahene"] {
-  background-position-x: calc(-100px * 2);
-}
-.side td a[href$="badji"] {
-  background-position-x: calc(-100px * 3);
+  background-position-x: calc(-135px * 2);
 }
 .side td a[href$="barrios"] {
-  background-position-x: calc(-100px * 4);
+  background-position-x: calc(-135px * 3);
 }
 .side td a[href$="bressan"] {
-  background-position-x: calc(-100px * 5);
+  background-position-x: calc(-135px * 4);
+}
+.side td a[href$="burgess"] {
+  background-position-x: calc(-135px * 5);
 }
 .side td a[href$="cannon"] {
-  background-position-x: calc(-100px * 6);
+  background-position-x: calc(-135px * 6);
 }
-.side td a[href$="colman"] {
-  background-position-x: calc(-100px * 7);
+.side td a[href$="cerrillo"] {
+  background-position-x: calc(-135px * 7);
 }
 .side td a[href$="ferreira"] {
-  background-position-x: calc(-100px * 8);
+  background-position-x: calc(-135px * 8);
 }
 .side td a[href$="gonzalez"] {
-  background-position-x: calc(-100px * 9);
-}
-.side td a[href$="gruezo"] {
-  background-position-x: calc(-100px * 10);
-}
-.side td a[href$="hayes"] {
-  background-position-x: calc(-100px * 11);
+  background-position-x: calc(-135px * 9);
 }
 .side td a[href$="hedges"] {
-  background-position-x: calc(-100px * 12);
-}
-.side td a[href$="hernandez"] {
-  background-position-x: calc(-100px * 13);
+  background-position-x: calc(-135px * 10);
 }
 .side td a[href$="hollingshead"] {
-  background-position-x: calc(-100px * 14);
+  background-position-x: calc(-135px * 11);
 }
 .side td a[href$="maurer"] {
-  background-position-x: calc(-100px * 15);
+  background-position-x: calc(-135px * 12);
+}
+.side td a[href$="montgomery"] {
+  background-position-x: calc(-135px * 13);
 }
 .side td a[href$="mosquera"] {
-  background-position-x: calc(-100px * 16);
+  background-position-x: calc(-135px * 14);
+}
+.side td a[href$="munjoma"] {
+  background-position-x: calc(-135px * 15);
+}
+.side td a[href$="nelson"] {
+  background-position-x: calc(-135px * 16);
 }
 .side td a[href$="ondrasek"] {
-  background-position-x: calc(-100px * 17);
+  background-position-x: calc(-135px * 17);
 }
-.side td a[href$="pedroso"] {
-  background-position-x: calc(-100px * 18);
+.side td a[href$="pepi"] {
+  background-position-x: calc(-135px * 18);
+}
+.side td a[href$="picault"] {
+  background-position-x: calc(-135px * 19);
 }
 .side td a[href$="pomykal"] {
-  background-position-x: calc(-100px * 19);
+  background-position-x: calc(-135px * 20);
 }
 .side td a[href$="reynolds"] {
-  background-position-x: calc(-100px * 20);
+  background-position-x: calc(-135px * 21);
 }
 .side td a[href$="roberts"] {
-  background-position-x: calc(-100px * 21);
+  background-position-x: calc(-135px * 22);
+}
+.side td a[href$="santos"] {
+  background-position-x: calc(-135px * 23);
+}
+.side td a[href$="sealy"] {
+  background-position-x: calc(-135px * 24);
+}
+.side td a[href$="servania"] {
+  background-position-x: calc(-135px * 25);
+}
+.side td a[href$="tessmann"] {
+  background-position-x: calc(-135px * 26);
 }
 .side td a[href$="twumasi"] {
-  background-position-x: calc(-100px * 22);
+  background-position-x: calc(-135px * 27);
 }
 .side td a[href$="ziegler"] {
-  background-position-x: calc(-100px * 23);
+  background-position-x: calc(-135px * 28);
 }
 .side td a[href$="zobeck"] {
-  background-position-x: calc(-100px * 24);
+  background-position-x: calc(-135px * 29);
 }
 
 /**
