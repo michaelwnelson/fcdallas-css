@@ -1197,6 +1197,10 @@ a[href="/penalty-missed"] {
   background-image: url(%%lf-ntpsa%%);
 }
 
+.linkflair-dallas-cup:not(.search-result) {
+  background-image: url(%%lf-dallas-cup%%);
+}
+
 .flairoptionpane ul li .linkflair {
   padding: 5px 0;
 }
