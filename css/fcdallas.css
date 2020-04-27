@@ -360,6 +360,7 @@ table thead tr:nth-child(1) {
 .md td a[href*="intermiamicf.com"],
 .content a[href="/MLS"],
 .md td a[href*="/MLS"],
+.md td a[href*="/mls"],
 .md td a[href*="mlssoccer.com"],
 .content a[href="/MNU"],
 .md td a[href*="/MinnesotaUnited"],
@@ -432,7 +433,8 @@ table thead tr:nth-child(1) {
  * Set the background position for each URL, including case-sensitive subreddits
  */
 .content a[href="/MLS"],
-.md td a[href*="/mls"],
+.md td a[href="/MLS"],
+.md td a[href="/mls"],
 .md td a[href*="mlssoccer.com"] {
   background-position: 0 -325px;
 }
