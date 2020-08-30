@@ -314,104 +314,92 @@ table thead tr:nth-child(1) {
  * Included the few subreddits that can be case sensitive e.g. Rapids
  */
 .content a[href="/ATL"],
-.content a[href="/CCL"],
-.content a[href="/CHI"],
-.content a[href="/CLB"],
-.content a[href="/COL"],
-.content a[href="/DC"],
-.content a[href="/FCD"],
-.content a[href="/HOU"],
-.content a[href="/LAFC"],
-.content a[href="/LAG"],
-.content a[href="/MLS"],
-.content a[href="/MNU"],
-.content a[href="/MON"],
-.content a[href="/NER"],
-.content a[href="/NYCFC"],
-.content a[href="/NYRB"],
-.content a[href="/OC"],
-.content a[href="/PHI"],
-.content a[href="/POR"],
-.content a[href="/RSL"],
-.content a[href="/SEA"],
-.content a[href="/SJE"],
-.content a[href="/SKC"],
-.content a[href="/TFC"],
-.content a[href="/USOC"],
-.content a[href="/VAN"],
 .md td a[href*="/AtlantaUnited"],
-.md td a[href*="/CCL"],
-.md td a[href*="/DCUnited"],
-.md td a[href*="/FCDallas"],
-.md td a[href*="/LAFC"],
-.md td a[href*="/LAGalaxy"],
-.md td a[href*="/MLS"],
-.md td a[href*="/MinnesotaUnited"],
-.md td a[href*="/NYCFC"],
-.md td a[href*="/NewEnglandRevolution"],
-.md td a[href*="/OCLions"],
-.md td a[href*="/PhillyUnion"],
-.md td a[href*="/SJEarthquakes"],
-.md td a[href*="/SoundersFC"],
-.md td a[href*="/TFC"],
-.md td a[href*="/TheMassive"],
-.md td a[href*="/USOC"],
 .md td a[href*="/atlantaunited"],
+.content a[href="/CCL"],
+.md td a[href*="/CCL"],
+.content a[href="/CHI"],
 .md td a[href*="/chicagofire"],
-.md td a[href*="/dcunited"],
-.md td a[href*="/dynamo"],
-.md td a[href*="/fcdallas"],
-.md td a[href*="/lafc"],
-.md td a[href*="/lagalaxy"],
-.md td a[href*="/minnesotaunited"],
-.md td a[href*="/montrealimpact"],
-.md td a[href*="/newenglandrevolution"],
-.md td a[href*="/nycfc"],
-.md td a[href*="/oclions"],
-.md td a[href*="/phillyunion"],
-.md td a[href*="/rapids"],
-.md td a[href*="/rbny"],
-.md td a[href*="/realsaltlake"],
-.md td a[href*="/sjearthquakes"],
-.md td a[href*="/soundersfc"],
-.md td a[href*="/sportingkc"],
-.md td a[href*="/tfc"],
+.content a[href="/CIN"],
+.md td a[href*="/FCCincinnati"],
+.md td a[href*="/fccincinnati"],
+.content a[href="/CLB"],
+.md td a[href*="/TheMassive"],
 .md td a[href*="/themassive"],
-.md td a[href*="/timbers"],
-.md td a[href*="/whitecapsfc"],
-.md td a[href*="atlutd.com"],
-.md td a[href*="chicago-fire.com"],
-.md td a[href*="coloradorapids.com"],
-.md td a[href*="concacaf.com"],
-.md td a[href*="concacafchampionsleague.com"],
-.md td a[href*="dcunited.com"],
-.md td a[href*="houstondynamo.com"],
-.md td a[href*="impactmontreal.com"],
-.md td a[href*="lagalaxy.com"],
-.md td a[href*="mlssoccer.com"],
-.md td a[href*="mnufc.com"],
-.md td a[href*="newyorkredbulls.com"],
-.md td a[href*="nycfc.com"],
-.md td a[href*="orlandocitysc.com"],
-.md td a[href*="philadelphiaunion.com"],
-.md td a[href*="portlandtimbers.com"],
-.md td a[href*="realsaltlake.com"],
+.content a[href="/COL"],
+.md td a[href*="/Rapids"],
+.md td a[href*="/rapids"],
+.content a[href="/DC"],
+.md td a[href*="/DCUnited"],
+.md td a[href*="/dcunited"],
+.content a[href="/FCD"],
+.md td a[href*="/FCDallas"],
+.md td a[href*="/fcdallas"],
+.content a[href="/HOU"],
+.md td a[href*="/dynamo"],
+.content a[href="/LAFC"],
+.md td a[href*="/LAFC"],
+.md td a[href*="/lafc"],
+.content a[href="/LAG"],
+.md td a[href*="/LAGalaxy"],
+.md td a[href*="/lagalaxy"],
+.content a[href="/MIA"],
+.md td a [href*="/InterMiami"],
+.md td a[href*="/intermiami"],
+.content a[href="/MLS"],
+.md td a[href*="/MLS"],
+.md td a[href*="/mls"],
+.content a[href="/MNU"],
+.md td a[href*="/MinnesotaUnited"],
+.md td a[href*="/minnesotaunited"],
+.content a[href="/MON"],
+.md td a[href*="/montrealimpact"],
+.content a[href="/NER"],
+.md td a[href*="/NewEnglandRevolution"],
+.md td a[href*="/newenglandrevolution"],
 .md td a[href*="revolutionsoccer.net"],
-.md td a[href*="sjearthquakes.com"],
-.md td a[href*="soundersfc.com"],
-.md td a[href*="sportingkc.com"],
-.md td a[href*="thecrew.com"],
-.md td a[href*="torontofc.ca/"],
-.md td a[href*="whitecapsfc.com"],
-.md td a[href*="NYCFC"],
-.md td a[href*="nycfc"],
-.md td a[href="lafc.com"] {
+.content a[href="/NSH"],
+.md td a[href*="/NashvilleSC"],
+.md td a[href*="/nashvillesc"],
+.content a[href="/NYCFC"],
+.md td a[href*="/NYCFC"],
+.md td a[href*="/nycfc"],
+.content a[href="/RBNY"],
+.md td a[href*="/rbny"],
+.content a[href="/OC"],
+.md td a[href*="/OCLions"],
+.md td a[href*="/oclions"],
+.content a[href="/PHI"],
+.md td a[href*="/PhillyUnion"],
+.md td a[href*="/phillyunion"],
+.content a[href="/POR"],
+.md td a[href*="/timbers"],
+.content a[href="/RSL"],
+.md td a[href*="/realsaltlake"],
+.content a[href="/SEA"],
+.md td a[href*="/SoundersFC"],
+.md td a[href*="/soundersfc"],
+.content a[href="/SJE"],
+.md td a[href*="/SJEarthquakes"],
+.md td a[href*="/sjearthquakes"],
+.content a[href="/SKC"],
+.md td a[href*="/sportingkc"],
+.content a[href="/TOR"],
+.md td a[href*="/TOR"],
+.md td a[href*="/tor"],
+.md td a[href*="torontofc.ca"],
+.content a[href="/USA"],
+.md td a[href*="/USA"],
+.content a[href="/USOC"],
+.md td a[href*="/USOC"],
+.content a[href="/VAN"],
+.md td a[href*="/whitecapsfc"] {
   background-color: transparent;
   background-image: url(%%clubs%%);
   background-repeat: no-repeat;
   display: inline-block;
-  min-height: 20px;
-  padding: 5px 0 5px 25px;
+  height: 25px;
+  padding: 5px 0 5px 28px;
   margin-left: 2px;
 }
 
@@ -419,148 +407,145 @@ table thead tr:nth-child(1) {
  * Set the background position for each URL, including case-sensitive subreddits
  */
 .content a[href="/MLS"],
-.md td a[href*="/mls"],
-.md td a[href*="mlssoccer.com/all-star"] {
-  background-position: 0 0;
+.md td a[href="/MLS"],
+.md td a[href="/mls"] {
+  background-position: 0 -325px;
 }
 .content a[href="/CCL"],
-.md td a[href*="/CCL"],
-.md td a[href*="concacaf.com"],
-.md td a[href*="concacafchampionsleague.com"] {
-  background-position: 0 -653px;
+.md td a[href*="/CCL"] {
+  background-position: 0 -25px;
 }
 .content a[href="/USOC"],
 .md td a[href*="/USOC"] {
-  background-position: 0 -573px;
+  background-position: 0 -700px;
+}
+.content a[href="/USA"],
+.md td a[href*="/USA"] {
+  background-position: 0 -675px;
 }
 .content a[href="/ATL"],
 .md td a[href*="/AtlantaUnited"],
-.md td a[href*="/atlantaunited"],
-.md td a[href*="atlutd.com"] {
-  background-position: 1px -787px;
+.md td a[href*="/atlantaunited"] {
+  background-position: 0px 0px;
 }
 .content a[href="/CHI"],
-.md td a[href*="/chicagofire"],
-.md td a[href*="chicago-fire.com"] {
-  background-position: 0 -24px;
+.md td a[href*="/chicagofire"] {
+  background-position: 0 -50px;
 }
-.content a[href="/COL"],
-.md td a[href*="/Rapids"],
-.md td a[href*="/rapids"],
-.md td a[href*="coloradorapids.com"] {
-  background-position: 0 -76px;
+.content a[href="/CIN"],
+.md td a[href*="/FCCincinnati"],
+.md td a[href*="/fccincinnati"] {
+  background-position: 0 -75px;
 }
 .content a[href="/CLB"],
 .md td a[href*="/TheMassive"],
-.md td a[href*="/themassive"],
-.md td a[href*="thecrew.com"] {
-  background-position: 0 -102px;
+.md td a[href*="/themassive"] {
+  background-position: 0 -100px;
+}
+.content a[href="/COL"],
+.md td a[href*="/Rapids"],
+.md td a[href*="/rapids"] {
+  background-position: 0 -125px;
 }
 .content a[href="/DC"],
 .md td a[href*="/DCUnited"],
-.md td a[href*="/dcunited"],
-.md td a[href*="dcunited.com"] {
-  background-position: 0 -128px;
+.md td a[href*="/dcunited"] {
+  background-position: 0 -150px;
 }
 .content a[href="/FCD"],
 .md td a[href*="/FCDallas"],
 .md td a[href*="/fcdallas"] {
-  background-position: 0 -154px;
+  background-position: 0 -175px;
 }
 .content a[href="/HOU"],
-.md td a[href*="/dynamo"],
-.md td a[href*="houstondynamo.com"] {
-  background-position: 0 -180px;
+.md td a[href*="/dynamo"] {
+  background-position: 0 -200px;
 }
 .content a[href="/LAFC"],
 .md td a[href*="/LAFC"],
-.md td a[href*="/lafc"],
-.md td a[href*="lafc.com"] {
-  background-position: 0 -820px;
+.md td a[href*="/lafc"] {
+  background-position: 0 -225px;
 }
 .content a[href="/LAG"],
 .md td a[href*="/LAGalaxy"],
-.md td a[href*="/lagalaxy"],
-.md td a[href*="lagalaxy.com"] {
-  background-position: 0 -206px;
+.md td a[href*="/lagalaxy"] {
+  background-position: 0 -250px;
+}
+.content a[href="/MIA"],
+.md td a [href*="/InterMiami"],
+.md td a[href*="/intermiami"] {
+  background-position: 0 -275px;
 }
 .content a[href="/MNU"],
 .md td a [href*="/MinnesotaUnited"],
-.md td a[href*="/minnesotaunited"],
-.md td a[href*="mnufc.com"] {
-  background-position: 0 -755px;
+.md td a[href*="/minnesotaunited"] {
+  background-position: 0 -300px;
 }
 .content a[href="/MON"],
-.md td a[href*="/montrealimpact"],
-.md td a[href*="impactmontreal.com"] {
-  background-position: 0 -232px;
+.md td a[href*="/montrealimpact"] {
+  background-position: 0 -350px;
 }
 .content a[href="/NER"],
 .md td a[href*="/NewEnglandRevolution"],
 .md td a[href*="/newenglandrevolution"],
 .md td a[href*="revolutionsoccer.net"] {
-  background-position: 0 -258px;
+  background-position: 0 -375px;
 }
-.content a[href="/NYRB"],
-.md td a[href*="/rbny"],
-.md td a[href*="newyorkredbulls.com"] {
-  background-position: 0 -284px;
+.content a[href="/NSH"],
+.md td a[href*="/NashvilleSC"],
+.md td a[href*="/nashvillesc"] {
+  background-position: 0 -400px;
+}
+.content a[href="/RBNY"],
+.md td a[href*="/rbny"] {
+  background-position: 0 -525px;
 }
 .content a[href="/NYCFC"],
 .md td a[href*="/NYCFC"],
-.md td a[href*="/nycfc"],
-.md td a[href*="nycfc.com"] {
-  background-position: 0 -544px;
+.md td a[href*="/nycfc"] {
+  background-position: 0 -425px;
 }
 .content a[href="/OC"],
 .md td a[href*="/OCLions"],
-.md td a[href*="/oclions"],
-.md td a[href*="orlandocitysc.com"] {
-  background-position: 0 -517px;
+.md td a[href*="/oclions"] {
+  background-position: 0 -450px;
 }
 .content a[href="/PHI"],
 .md td a[href*="/PhillyUnion"],
-.md td a[href*="/phillyunion"],
-.md td a[href*="philadelphiaunion.com"] {
-  background-position: 0 -310px;
+.md td a[href*="/phillyunion"] {
+  background-position: 0 -475px;
 }
 .content a[href="/POR"],
-.md td a[href*="/timbers"],
-.md td a[href*="portlandtimbers.com"] {
-  background-position: 0 -336px;
+.md td a[href*="/timbers"] {
+  background-position: 0 -500px;
 }
 .content a[href="/RSL"],
-.md td a[href*="/realsaltlake"],
-.md td a[href*="realsaltlake.com"] {
-  background-position: 0 -362px;
-}
-.content a[href="/SJE"],
-.md td a[href*="/SJEarthquakes"],
-.md td a[href*="/sjearthquakes"],
-.md td a[href*="sjearthquakes.com"] {
-  background-position: 0 -388px;
+.md td a[href*="/realsaltlake"] {
+  background-position: 0 -550px;
 }
 .content a[href="/SEA"],
 .md td a[href*="/SoundersFC"],
-.md td a[href*="/soundersfc"],
-.md td a[href*="soundersfc.com"] {
-  background-position: 0 -414px;
+.md td a[href*="/soundersfc"] {
+  background-position: 0 -575px;
+}
+.content a[href="/SJE"],
+.md td a[href*="/SJEarthquakes"],
+.md td a[href*="/sjearthquakes"] {
+  background-position: 0 -600px;
 }
 .content a[href="/SKC"],
-.md td a[href*="/sportingkc"],
-.md td a[href*="sportingkc.com"] {
-  background-position: 0 -440px;
+.md td a[href*="/sportingkc"] {
+  background-position: 0 -625px;
 }
 .content a[href="/TOR"],
-.md td a[href*="/TFC"],
-.md td a[href*="/tfc"],
+.md td a[href*="/TOR"],
+.md td a[href*="/tor"],
 .md td a[href*="torontofc.ca"] {
-  background-position: 0 -466px;
+  background-position: 0 -650px;
 }
 .content a[href="/VAN"],
-.md td a[href*="/whitecapsfc"],
-.md td a[href*="whitecapsfc.com"] {
-  background-position: 0 -492px;
+.md td a[href*="/whitecapsfc"] {
+  background-position: 0 -725px;
 }
 
 /**
@@ -571,8 +556,8 @@ table thead tr:nth-child(1) {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  width: 100px;
-  height: 100px;
+  width: 135px;
+  height: 135px;
   background-color: transparent;
   background-repeat: no-repeat;
   content: "";
@@ -584,76 +569,91 @@ table thead tr:nth-child(1) {
   background-position-x: 0;
 }
 .side td a[href$="aranguiz"] {
-  background-position-x: -100px;
+  background-position-x: -135px;
 }
 .side td a[href$="atuahene"] {
-  background-position-x: calc(-100px * 2);
-}
-.side td a[href$="badji"] {
-  background-position-x: calc(-100px * 3);
+  background-position-x: calc(-135px * 2);
 }
 .side td a[href$="barrios"] {
-  background-position-x: calc(-100px * 4);
+  background-position-x: calc(-135px * 3);
 }
 .side td a[href$="bressan"] {
-  background-position-x: calc(-100px * 5);
+  background-position-x: calc(-135px * 4);
+}
+.side td a[href$="burgess"] {
+  background-position-x: calc(-135px * 5);
 }
 .side td a[href$="cannon"] {
-  background-position-x: calc(-100px * 6);
+  background-position-x: calc(-135px * 6);
 }
-.side td a[href$="colman"] {
-  background-position-x: calc(-100px * 7);
+.side td a[href$="cerrillo"] {
+  background-position-x: calc(-135px * 7);
 }
 .side td a[href$="ferreira"] {
-  background-position-x: calc(-100px * 8);
+  background-position-x: calc(-135px * 8);
 }
 .side td a[href$="gonzalez"] {
-  background-position-x: calc(-100px * 9);
-}
-.side td a[href$="gruezo"] {
-  background-position-x: calc(-100px * 10);
-}
-.side td a[href$="hayes"] {
-  background-position-x: calc(-100px * 11);
+  background-position-x: calc(-135px * 9);
 }
 .side td a[href$="hedges"] {
-  background-position-x: calc(-100px * 12);
-}
-.side td a[href$="hernandez"] {
-  background-position-x: calc(-100px * 13);
+  background-position-x: calc(-135px * 10);
 }
 .side td a[href$="hollingshead"] {
-  background-position-x: calc(-100px * 14);
+  background-position-x: calc(-135px * 11);
 }
 .side td a[href$="maurer"] {
-  background-position-x: calc(-100px * 15);
+  background-position-x: calc(-135px * 12);
+}
+.side td a[href$="montgomery"] {
+  background-position-x: calc(-135px * 13);
 }
 .side td a[href$="mosquera"] {
-  background-position-x: calc(-100px * 16);
+  background-position-x: calc(-135px * 14);
+}
+.side td a[href$="munjoma"] {
+  background-position-x: calc(-135px * 15);
+}
+.side td a[href$="nelson"] {
+  background-position-x: calc(-135px * 16);
 }
 .side td a[href$="ondrasek"] {
-  background-position-x: calc(-100px * 17);
+  background-position-x: calc(-135px * 17);
 }
-.side td a[href$="pedroso"] {
-  background-position-x: calc(-100px * 18);
+.side td a[href$="pepi"] {
+  background-position-x: calc(-135px * 18);
+}
+.side td a[href$="picault"] {
+  background-position-x: calc(-135px * 19);
 }
 .side td a[href$="pomykal"] {
-  background-position-x: calc(-100px * 19);
+  background-position-x: calc(-135px * 20);
 }
 .side td a[href$="reynolds"] {
-  background-position-x: calc(-100px * 20);
+  background-position-x: calc(-135px * 21);
 }
 .side td a[href$="roberts"] {
-  background-position-x: calc(-100px * 21);
+  background-position-x: calc(-135px * 22);
+}
+.side td a[href$="santos"] {
+  background-position-x: calc(-135px * 23);
+}
+.side td a[href$="sealy"] {
+  background-position-x: calc(-135px * 24);
+}
+.side td a[href$="servania"] {
+  background-position-x: calc(-135px * 25);
+}
+.side td a[href$="tessmann"] {
+  background-position-x: calc(-135px * 26);
 }
 .side td a[href$="twumasi"] {
-  background-position-x: calc(-100px * 22);
+  background-position-x: calc(-135px * 27);
 }
 .side td a[href$="ziegler"] {
-  background-position-x: calc(-100px * 23);
+  background-position-x: calc(-135px * 28);
 }
 .side td a[href$="zobeck"] {
-  background-position-x: calc(-100px * 24);
+  background-position-x: calc(-135px * 29);
 }
 
 /**
@@ -734,8 +734,8 @@ a[href="/penalty-missed"] {
  */
 .author[href$="/bravoavocado"],
 .author[href$="/b0xors"],
-.author[href$="/le3dprintedcalfman"],
-.author[href$="/bepeacock"] {
+.author[href$="/bepeacock"],
+.author[href$="/clutchy42"] {
   color: #008a00 !important;
 }
 
@@ -1180,10 +1180,6 @@ a[href="/penalty-missed"] {
 
 .linkflair-ntpsa:not(.search-result) {
   background-image: url(%%lf-ntpsa%%);
-}
-
-.linkflair-dallas-cup:not(.search-result) {
-  background-image: url(%%lf-dallas-cup%%);
 }
 
 .flairoptionpane ul li .linkflair {
