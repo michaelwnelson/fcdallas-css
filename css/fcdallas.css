@@ -655,6 +655,13 @@ table thead tr:nth-child(1) {
 .side td a[href$="zobeck"] {
   background-position-x: calc(-135px * 29);
 }
+.side td a[href$="avilez"] {
+  background-position-x: calc(-135px * 30);
+}
+.side td a[href$="jara"] {
+  background-position-x: calc(-135px * 31);
+}
+
 
 /**
  * Match Thread Icons
@@ -732,7 +739,6 @@ a[href="/penalty-missed"] {
 /**
  * Make mods stand out
  */
-.author[href$="/bravoavocado"],
 .author[href$="/b0xors"],
 .author[href$="/bepeacock"],
 .author[href$="/clutchy42"] {
@@ -799,7 +805,7 @@ a[href="/penalty-missed"] {
 /**
  * Flair Players
  */
-.flair-aranguiz:before {
+.flair-acosta:before {
   background-position: 0 0;
 }
 
@@ -807,7 +813,7 @@ a[href="/penalty-missed"] {
   background-position: -30px 0;
 }
 
-.flair-badji:before {
+.flair-avilez:before {
   background-position: -60px 0;
 }
 
@@ -815,39 +821,39 @@ a[href="/penalty-missed"] {
   background-position: -90px 0;
 }
 
-.flair-cannon:before {
+.flair-bressan:before {
   background-position: -120px 0;
 }
 
-.flair-colman:before {
+.flair-burgess:before {
   background-position: -150px 0;
 }
 
-.flair-ferreira:before {
+.flair-cannon:before {
   background-position: -180px 0;
 }
 
-.flair-gonzalez:before {
+.flair-cerrillo:before {
   background-position: -210px 0;
 }
 
-.flair-gruezo:before {
+.flair-ferreira:before {
   background-position: -240px 0;
 }
 
-.flair-hayes:before {
+.flair-hedges:before {
   background-position: -270px 0;
 }
 
-.flair-hedges:before {
+.flair-hollingshead:before {
   background-position: -300px 0;
 }
 
-.flair-hernandez:before {
+.flair-jara:before {
   background-position: -330px 0;
 }
 
-.flair-hollingshead:before {
+.flair-kobra:before {
   background-position: -360px 0;
 }
 
@@ -855,44 +861,72 @@ a[href="/penalty-missed"] {
   background-position: -390px 0;
 }
 
-.flair-mosquera:before {
+.flair-montgomery:before {
   background-position: -420px 0;
 }
 
-.flair-ondrasek:before {
+.flair-mosquera:before {
   background-position: -450px 0;
 }
 
-.flair-pedroso:before {
+.flair-munjoma:before {
   background-position: -480px 0;
 }
 
-.flair-pomykal:before {
+.flair-nelson:before {
   background-position: -510px 0;
 }
 
-.flair-reynolds:before {
+.flair-pepi:before {
   background-position: -540px 0;
 }
 
-.flair-roberts:before {
+.flair-picault:before {
   background-position: -570px 0;
 }
 
-.flair-servania:before {
+.flair-pomykal:before {
   background-position: -600px 0;
 }
 
-.flair-twumasi:before {
+.flair-reynolds:before {
   background-position: -630px 0;
 }
 
-.flair-ziegler:before {
+.flair-roberts:before {
   background-position: -660px 0;
 }
 
-.flair-zobeck:before {
+.flair-santos:before {
   background-position: -690px 0;
+}
+
+.flair-sealy:before {
+  background-position: -720px 0;
+}
+
+.flair-servania:before {
+  background-position: -750px 0;
+}
+
+.flair-santos:before {
+  background-position: -780px 0;
+}
+
+.flair-tessman:before {
+  background-position: -810px 0;
+}
+
+.flair-twumasi:before {
+  background-position: -840px 0;
+}
+
+.flair-ziegler:before {
+  background-position: -870px 0;
+}
+
+.flair-zobeck:before {
+  background-position: -900px 0;
 }
 
 .flair-luchi:before {
